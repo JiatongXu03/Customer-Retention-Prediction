@@ -1,0 +1,38 @@
+[
+  {
+    "notebook": "01_source_and_quality_audit.ipynb",
+    "code_cells": 6,
+    "seconds": 74.56,
+    "status": "passed"
+  },
+  {
+    "notebook": "02_targets_cohorts_and_split_plan.ipynb",
+    "code_cells": 5,
+    "seconds": 3.63,
+    "status": "passed"
+  },
+  {
+    "notebook": "03_cross_dataset_framework.ipynb",
+    "code_cells": 4,
+    "seconds": 0.01,
+    "status": "passed"
+  },
+  {
+    "notebook": "04_development_eda.ipynb",
+    "code_cells": 7,
+    "seconds": 3.88,
+    "status": "passed"
+  },
+  {
+    "notebook": "05_baseline_models_and_validation.ipynb",
+    "code_cells": 7,
+    "seconds": 8.54,
+    "status": "passed"
+  },
+  {
+    "notebook": "06_progress_report_evidence.ipynb",
+    "code_cells": 4,
+    "seconds": 0.39,
+    "status": "passed"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "eligible_customers": 2669,
+  "retained_90d": 1332,
+  "repeat_purchase_rate_90d": 0.49906331959535405,
+  "not_repurchase_rate_90d": 0.500936680404646,
+  "cutoff": "2010-06-01",
+  "label": "future repeat purchase; not permanent churn"
+}

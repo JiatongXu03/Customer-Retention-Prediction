@@ -1,0 +1,4 @@
+layer,reusable_logic,adaptation_or_boundary,week1_output
+1 Business definition,"eligible cohort, outcome, horizon, action objective",Source labels vs retail purchase windows; business assumptions remain explicit,target_definition.md + study_design.json
+2 ML analysis and validation,"sample/feature construction, leakage checks, baseline comparison, calibration, robustness",Separate models and suitable splits; frozen holdouts; no model fitted Week 1,notebooks 01/02 + split/window files
+3 Business application and feedback,"cohort retention, risk/value prioritization, experiments, monitoring",10% outreach is a later scenario; no observed treatment effects or financial savings,decision_log.md + Week 2 handoff

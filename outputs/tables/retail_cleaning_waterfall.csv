@@ -1,0 +1,8 @@
+step,remaining_rows,removed_rows
+raw invoice lines,1067371,0
+missing_customer_id,824364,243007
+invalid_date,824364,0
+cancellation_invoice,805620,18744
+nonpositive_quantity,805620,0
+nonpositive_price,805549,71
+exact_duplicate_extra,779425,26124

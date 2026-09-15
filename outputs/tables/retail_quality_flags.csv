@@ -1,0 +1,7 @@
+issue,rows,share
+missing_customer_id,243007,0.22766872999172733
+invalid_date,0,0.0
+cancellation_invoice,19494,0.018263565339511754
+nonpositive_quantity,22950,0.021501427338760374
+nonpositive_price,6207,0.005815222635803296
+exact_duplicate_extra,34335,0.032167821685243465

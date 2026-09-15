@@ -1,0 +1,8 @@
+concept,ibm,iranian,retail,comparability_limit
+relationship_duration,tenure,Subscription  Length,days since first observed purchase (future feature),Observed retail history is left-truncated; not true lifetime tenure
+engagement,service subscriptions only; usage intensity absent,Seconds of Use; Frequency of use; Frequency of SMS,recency_days; frequency_180d,Service enrollment is not behavioral frequency
+price_or_spending,MonthlyCharges; TotalCharges,Charge  Amount (ordinal),gross_spend_180d,Spend is not price sensitivity; no common monetary scale
+service_friction,TechSupport subscription; not complaint events,Call  Failure; Complains,not directly measured,Support subscription is not dissatisfaction; returns need separate engineering
+contract_commitment,Contract,Tariff Plan,not applicable,Retail non-contractual purchases cannot be mapped to cancellation
+customer_value,historical TotalCharges proxy,Customer Value excluded until formula audit,gross historical spend proxy,None is validated future CLV or incremental treatment benefit
+retention_target,source Churn: Yes/No,"source Churn: 1/0, nine-to-twelve-month design",future repeat purchase in 90 days,"Different labels/horizons; compare process, not raw rates"

@@ -1,0 +1,12 @@
+stock_code,description,lines,customers
+POST,POSTAGE,269,122
+M,Manual,196,147
+C2,CARRIAGE,33,11
+ADJUST,Adjustment by john on 26/01/2010 16,18,15
+ADJUST,Adjustment by john on 26/01/2010 17,14,11
+PADS,PADS TO MATCH ALL CUSHIONS,11,10
+TEST001,This is a test product.,9,2
+BANK CHARGES,Bank Charges,5,3
+BANK CHARGES, Bank Charges,2,2
+D,Discount,2,2
+TEST002,This is a test product.,1,1

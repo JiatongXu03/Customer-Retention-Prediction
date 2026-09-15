@@ -1,0 +1,41 @@
+{
+  "version": "weeks1-4-v2",
+  "seed": 5920,
+  "telecom_test_fraction": 0.2,
+  "retail": {
+    "lookback_days": 180,
+    "primary_horizon_days": 90,
+    "sensitivity_horizon_days": 60,
+    "development_cutoff": "2010-06-01",
+    "validation_cutoff": "2010-09-01",
+    "reserved_test_cutoff": "2011-09-01",
+    "eligible": "At least one valid positive-value purchase in [cutoff-180d, cutoff)",
+    "retained": "At least one valid purchase in [cutoff, cutoff+90d)",
+    "note": "Four expanding-window development validation origins. Final 2011-09-01 test cutoff remains reserved and unlabeled.",
+    "rolling_development_cutoffs": [
+      "2010-06-01",
+      "2010-09-01",
+      "2010-12-01",
+      "2011-03-01",
+      "2011-06-01"
+    ]
+  },
+  "iranian_primary_exclusions": [
+    "Status",
+    "Customer Value"
+  ],
+  "models_later": [
+    "LogisticRegression",
+    "XGBoost"
+  ],
+  "week1_scope": "Acquisition, structural audit, task definitions, split reservation, development-only cohort feasibility; no fitted model or causal claim.",
+  "week4_scope": "Data audit, EDA, fold-safe preprocessing, prior/majority and Logistic Regression baselines, first progress report. XGBoost, tuned calibration and SHAP remain Weeks 5-8.",
+  "baseline": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 3000,
+    "class_weight": null,
+    "threshold": 0.5,
+    "telecom_folds": 5
+  }
+}

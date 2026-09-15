@@ -1,0 +1,4 @@
+role,observation_start,cutoff,label_end_exclusive,labels_built_week1
+development,2009-12-03,2010-06-01,2010-08-30,True
+validation,2010-03-05,2010-09-01,2010-11-30,False
+reserved_test,2011-03-05,2011-09-01,2011-11-30,False

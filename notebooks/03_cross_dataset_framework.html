@@ -1,0 +1,85 @@
+<!doctype html><html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>03_cross_dataset_framework</title><style>
+:root{--ink:#17324d;--muted:#5d6e7c;--teal:#167d83;--line:#dbe4e9;--pale:#edf6f5;--gold:#b87816;--bg:#f2f5f7}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;color:var(--ink);background:var(--bg);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--teal)}.topbar{position:sticky;top:0;z-index:9;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{max-width:1180px;margin:auto;display:flex;align-items:center;gap:20px;padding:13px 24px;font-size:13px;flex-wrap:wrap}.nav .brand{font-weight:750;letter-spacing:.03em;margin-right:auto}.nav a{text-decoration:none;color:var(--muted)}button{font:inherit;border:1px solid var(--line);padding:7px 13px;background:white;border-radius:8px;color:var(--ink);cursor:pointer}main{max-width:1180px;margin:30px auto 60px;padding:0 24px}.hero{background:var(--ink);color:white;padding:44px 44px 36px;border-radius:20px}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:750;color:#86d4ce}.hero h1{font-size:clamp(30px,4vw,45px);line-height:1.13;max-width:850px;margin:15px 0 18px;letter-spacing:-.035em}.hero .subtitle{font-size:18px;max-width:900px;color:#dce8ef}.byline{font-size:14px;color:#bfceda;margin-top:22px}.hero .status{display:inline-block;border:1px solid #72929e;border-radius:30px;padding:5px 13px;margin-top:14px;font-size:12px;color:#d7f3ef}.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:20px 0}.kpi{border-radius:14px;background:white;border:1px solid var(--line);padding:20px 24px}.kpi b{display:block;font-size:30px;color:var(--teal);line-height:1.2}.kpi span{font-size:13px;color:var(--muted)}section.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:32px 36px;margin:22px 0}h2{font-size:27px;line-height:1.2;letter-spacing:-.025em;margin:0 0 16px}h3{font-size:18px;line-height:1.4;margin:0 0 10px}.section-label{color:var(--teal);font-size:12px;font-weight:750;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}.lead{font-size:18px;line-height:1.65}.muted,.note{color:var(--muted)}.note{font-size:13px;line-height:1.55}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:22px 0 6px}.card{border:1px solid var(--line);border-radius:12px;padding:20px}.card .num{color:var(--teal);font-size:12px;font-weight:750;letter-spacing:.08em}.card p{font-size:14px;margin:10px 0 0}.callout{border-left:4px solid var(--teal);padding:16px 20px;background:var(--pale);border-radius:0 10px 10px 0;margin:20px 0}.callout.amber{border-color:#c38b32;background:#fff7e9}.callout p{margin:0}.table-scroll{overflow-x:auto;margin:20px 0}table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5;font-variant-numeric:tabular-nums}th,td{text-align:left;vertical-align:top;padding:12px 10px;border-bottom:1px solid var(--line)}th{background:#f2f6f8;color:var(--muted);font-size:12px;white-space:nowrap}tbody tr:last-child td{border-bottom:0}figure{margin:24px 0}figure img{display:block;width:100%;height:auto}figcaption{font-size:12px;color:var(--muted);margin-top:12px}.split{display:grid;grid-template-columns:1fr 1fr;gap:24px}.compact li{margin:10px 0}.checks{padding-left:20px}.checks li{margin:8px 0}details{border:1px solid var(--line);border-radius:10px;margin:15px 0;padding:15px 18px}summary{cursor:pointer;font-weight:650}details .content{margin-top:18px}.sources{font-size:13px}.sources li{margin-bottom:8px}code{font-size:.86em;padding:2px 5px;border-radius:4px;background:#f0f4f6;color:#29495d}pre{font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere;padding:15px;background:#f3f6f8;border-radius:8px}.footer{font-size:12px;color:var(--muted);padding:12px 0}.pill{display:inline-block;background:var(--pale);color:var(--teal);border-radius:15px;padding:3px 10px;font-size:12px;white-space:nowrap}.unit{font-size:12px;color:var(--muted)}
+@media(max-width:800px){main{padding:0 14px;margin-top:15px}.hero{padding:28px}.cards,.split{grid-template-columns:1fr}.kpis{gap:8px}.kpi{padding:14px}.kpi b{font-size:24px}section.panel{padding:24px}.nav{gap:13px}.nav .brand{width:100%}.nav button{display:none}table{min-width:650px}}
+@media print{body{background:white;font-size:10pt}.topbar{display:none}main{max-width:none;margin:0;padding:0}.hero{background:#17324d!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;padding:26px}.hero h1{font-size:28pt}section.panel{border:0;padding:18px 0;margin:10px 0;break-inside:auto}.kpi,.card{break-inside:avoid}.cards{grid-template-columns:repeat(3,1fr)}.table-scroll{overflow:visible}table{min-width:0;font-size:8pt}th,td{padding:7px}h2,h3{break-after:avoid}figure{break-inside:avoid}details{border:0;padding:0}details>summary{display:none}details>.content{display:block!important}a{color:inherit;text-decoration:none}.note{font-size:8pt}}
+</style><main><section class="panel"><h1>Week 1 · 三层框架与跨数据集可比性</h1>
+<p>本 Notebook 生成可复用的业务/ML 对照，不把未测量的变量当作没有作用，也不提前输出共通驱动因素。</p><details open><summary>Executed cell 1</summary><div class="content"><pre>from pathlib import Path
+import sys, json, hashlib
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+ROOT = next(p for p in [Path.cwd(), *Path.cwd().parents] if (p/&#x27;config/study_design.json&#x27;).exists())
+sys.path.insert(0, str(ROOT/&#x27;src&#x27;))
+from audit_utils import *
+TABLES=ROOT/&#x27;outputs/tables&#x27;; FIGS=ROOT/&#x27;outputs/figures&#x27;
+TABLES.mkdir(parents=True,exist_ok=True); FIGS.mkdir(parents=True,exist_ok=True)
+pd.set_option(&#x27;display.max_columns&#x27;,20)
+pd.set_option(&#x27;display.width&#x27;,160)
+print(&#x27;Project:&#x27;, ROOT.name)
+</pre><pre>Project: Retention_Weeks1-4
+</pre></div></details><details open><summary>Executed cell 2</summary><div class="content"><pre>mapping=pd.DataFrame([
+ [&#x27;relationship_duration&#x27;,&#x27;tenure&#x27;,&#x27;Subscription  Length&#x27;,&#x27;days since first observed purchase (future feature)&#x27;,&#x27;Observed retail history is left-truncated; not true lifetime tenure&#x27;],
+ [&#x27;engagement&#x27;,&#x27;service subscriptions only; usage intensity absent&#x27;,&#x27;Seconds of Use; Frequency of use; Frequency of SMS&#x27;,&#x27;recency_days; frequency_180d&#x27;,&#x27;Service enrollment is not behavioral frequency&#x27;],
+ [&#x27;price_or_spending&#x27;,&#x27;MonthlyCharges; TotalCharges&#x27;,&#x27;Charge  Amount (ordinal)&#x27;,&#x27;gross_spend_180d&#x27;,&#x27;Spend is not price sensitivity; no common monetary scale&#x27;],
+ [&#x27;service_friction&#x27;,&#x27;TechSupport subscription; not complaint events&#x27;,&#x27;Call  Failure; Complains&#x27;,&#x27;not directly measured&#x27;,&#x27;Support subscription is not dissatisfaction; returns need separate engineering&#x27;],
+ [&#x27;contract_commitment&#x27;,&#x27;Contract&#x27;,&#x27;Tariff Plan&#x27;,&#x27;not applicable&#x27;,&#x27;Retail non-contractual purchases cannot be mapped to cancellation&#x27;],
+ [&#x27;customer_value&#x27;,&#x27;historical TotalCharges proxy&#x27;,&#x27;Customer Value excluded until formula audit&#x27;,&#x27;gross historical spend proxy&#x27;,&#x27;None is validated future CLV or incremental treatment benefit&#x27;],
+ [&#x27;retention_target&#x27;,&#x27;source Churn: Yes/No&#x27;,&#x27;source Churn: 1/0, nine-to-twelve-month design&#x27;,&#x27;future repeat purchase in 90 days&#x27;,&#x27;Different labels/horizons; compare process, not raw rates&#x27;]
+],columns=[&#x27;concept&#x27;,&#x27;ibm&#x27;,&#x27;iranian&#x27;,&#x27;retail&#x27;,&#x27;comparability_limit&#x27;])
+mapping.to_csv(TABLES/&#x27;feature_concept_map.csv&#x27;,index=False)
+print(mapping.to_string(index=False))
+</pre><pre>              concept                                                ibm                                            iranian                                              retail                                                            comparability_limit
+relationship_duration                                             tenure                               Subscription  Length days since first observed purchase (future feature)            Observed retail history is left-truncated; not true lifetime tenure
+           engagement service subscriptions only; usage intensity absent Seconds of Use; Frequency of use; Frequency of SMS                        recency_days; frequency_180d                                 Service enrollment is not behavioral frequency
+    price_or_spending                       MonthlyCharges; TotalCharges                           Charge  Amount (ordinal)                                    gross_spend_180d                       Spend is not price sensitivity; no common monetary scale
+     service_friction     TechSupport subscription; not complaint events                           Call  Failure; Complains                               not directly measured Support subscription is not dissatisfaction; returns need separate engineering
+  contract_commitment                                           Contract                                        Tariff Plan                                      not applicable              Retail non-contractual purchases cannot be mapped to cancellation
+       customer_value                      historical TotalCharges proxy        Customer Value excluded until formula audit                        gross historical spend proxy                  None is validated future CLV or incremental treatment benefit
+     retention_target                               source Churn: Yes/No     source Churn: 1/0, nine-to-twelve-month design                   future repeat purchase in 90 days                      Different labels/horizons; compare process, not raw rates
+</pre></div></details><details open><summary>Executed cell 3</summary><div class="content"><pre>framework=pd.DataFrame([
+ [&#x27;1 Business definition&#x27;,&#x27;eligible cohort, outcome, horizon, action objective&#x27;,&#x27;Source labels vs retail purchase windows; business assumptions remain explicit&#x27;,&#x27;target_definition.md + study_design.json&#x27;],
+ [&#x27;2 ML analysis and validation&#x27;,&#x27;sample/feature construction, leakage checks, baseline comparison, calibration, robustness&#x27;,&#x27;Separate models and suitable splits; frozen holdouts; no model fitted Week 1&#x27;,&#x27;notebooks 01/02 + split/window files&#x27;],
+ [&#x27;3 Business application and feedback&#x27;,&#x27;cohort retention, risk/value prioritization, experiments, monitoring&#x27;,&#x27;10% outreach is a later scenario; no observed treatment effects or financial savings&#x27;,&#x27;decision_log.md + Week 2 handoff&#x27;]
+],columns=[&#x27;layer&#x27;,&#x27;reusable_logic&#x27;,&#x27;adaptation_or_boundary&#x27;,&#x27;week1_output&#x27;])
+framework.to_csv(TABLES/&#x27;three_layer_framework.csv&#x27;,index=False)
+print(framework.to_string(index=False))
+</pre><pre>                              layer                                                                            reusable_logic                                                               adaptation_or_boundary                             week1_output
+              1 Business definition                                       eligible cohort, outcome, horizon, action objective       Source labels vs retail purchase windows; business assumptions remain explicit target_definition.md + study_design.json
+       2 ML analysis and validation sample/feature construction, leakage checks, baseline comparison, calibration, robustness         Separate models and suitable splits; frozen holdouts; no model fitted Week 1     notebooks 01/02 + split/window files
+3 Business application and feedback                      cohort retention, risk/value prioritization, experiments, monitoring 10% outreach is a later scenario; no observed treatment effects or financial savings         decision_log.md + Week 2 handoff
+</pre></div></details><h2>同一个 ML 框架如何接受不同数据？</h2>
+<p>统一接口：`build_dataset(raw, design) -&gt; X, y, customer_group, cutoff, split`。</p>
+<p>- X 只使用 cutoff 之前可获得的字段；标签、ID、未来交易和 outcome-derived 字段不进入 X。</p>
+<p>- 每个数据集分别拟合 preprocessing/model/calibration；retail 用时间验证，静态 telecom 仅验证同来源泛化。</p>
+<p>- 后续统一报告 ROC-AUC、average precision、calibration/Brier、precision/recall/lift at capacity，以及 cohort retention error。</p>
+<p>- 跨场景比较的是方法的增益、概念组稳定性和失败条件；未经归一的 SHAP 数值不跨模型硬比较。</p><details open><summary>Executed cell 4</summary><div class="content"><pre>inventory=pd.read_csv(TABLES/&#x27;dataset_inventory.csv&#x27;)
+quality=pd.read_csv(TABLES/&#x27;field_quality_profile.csv&#x27;)
+assert set(inventory.dataset)=={&#x27;ibm&#x27;,&#x27;iranian&#x27;,&#x27;retail&#x27;}
+assert all((TABLES/n).exists() for n in [&#x27;retail_window_plan.csv&#x27;,&#x27;ibm_split_assignments.csv&#x27;,&#x27;iranian_split_assignments.csv&#x27;])
+summary={&#x27;datasets_acquired&#x27;:3,&#x27;raw_rows&#x27;:inventory.set_index(&#x27;dataset&#x27;).rows.to_dict(),
+ &#x27;field_profiles&#x27;:len(quality),&#x27;mapping_concepts&#x27;:len(mapping),&#x27;models_fitted&#x27;:0,
+ &#x27;test_performance_computed&#x27;:False,&#x27;retail_test_labels_constructed&#x27;:False,
+ &#x27;common_drivers_established&#x27;:False,&#x27;status&#x27;:&#x27;Week 1 data/task feasibility completed; unresolved definitions documented&#x27;}
+(ROOT/&#x27;outputs/week1_status.json&#x27;).write_text(json.dumps(summary,indent=2))
+print(json.dumps(summary,indent=2))
+</pre><pre>{
+  &quot;datasets_acquired&quot;: 3,
+  &quot;raw_rows&quot;: {
+    &quot;ibm&quot;: 7043,
+    &quot;iranian&quot;: 3150,
+    &quot;retail&quot;: 1067371
+  },
+  &quot;field_profiles&quot;: 43,
+  &quot;mapping_concepts&quot;: 7,
+  &quot;models_fitted&quot;: 0,
+  &quot;test_performance_computed&quot;: false,
+  &quot;retail_test_labels_constructed&quot;: false,
+  &quot;common_drivers_established&quot;: false,
+  &quot;status&quot;: &quot;Week 1 data/task feasibility completed; unresolved definitions documented&quot;
+}
+</pre></div></details><h2>下周优先事项</h2>
+<p>1. 确认 Iranian Status/客户 eligibility 与 Customer Value 公式，验证分组策略。</p>
+<p>2. 确认零售调整单/商品行与退货口径，做开发期敏感性检查。</p>
+<p>3. 在 development 内创建 fold-safe preprocessing 和 Logistic Regression 基线。</p>
+<p>4. 记录目标、划分或字段变更；测试集继续保留，不据其表现修改方法。</p></section></main></html>

@@ -1,0 +1,7 @@
+{
+  "cutoff_purchase_is_label_not_feature": true,
+  "label_end_is_exclusive": true,
+  "future_only_customer_ineligible": true,
+  "before_lookback_ineligible": true,
+  "configurable_horizon_column_names": true
+}

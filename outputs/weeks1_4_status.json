@@ -1,0 +1,18 @@
+{
+  "period": "Weeks 1-4",
+  "datasets": 3,
+  "notebook_stage": "baseline validation",
+  "telecom_folds_per_dataset": 5,
+  "retail_temporal_folds": 4,
+  "classifier_types": [
+    "Prior / majority",
+    "Logistic Regression"
+  ],
+  "fit_count": 28,
+  "hyperparameter_search": false,
+  "final_test_evaluated": false,
+  "retail_final_test_labels_constructed": false,
+  "xgboost_fitted": false,
+  "shap_computed": false,
+  "convergence_warnings": 0
+}

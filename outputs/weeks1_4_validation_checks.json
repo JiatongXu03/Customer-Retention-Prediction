@@ -1,0 +1,8 @@
+{
+  "all_saved_metrics_reconciled": true,
+  "telecom_predictions_development_only": true,
+  "telecom_profile_groups_do_not_cross_folds": true,
+  "retail_training_labels_visible_before_validation": true,
+  "retail_validation_labels_end_before_final_test_cutoff": true,
+  "final_test_evaluated": false
+}

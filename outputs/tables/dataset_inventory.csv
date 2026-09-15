@@ -1,0 +1,4 @@
+dataset,rows,source_columns,exact_duplicate_extras,known_unique_customers
+ibm,7043,21,0,7043.0
+iranian,3150,14,300,
+retail,1067371,8,34335,5942.0

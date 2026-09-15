@@ -1,0 +1,49 @@
+{
+  "verified_at_utc": "2026-09-15T01:57:30.366913+00:00",
+  "sources": [
+    {
+      "file": "ibm_telco.csv",
+      "url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+      "source": "IBM/telco-customer-churn-on-icp4d",
+      "license": "Repository Apache-2.0; retain source attribution",
+      "bytes": 970457,
+      "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91"
+    },
+    {
+      "file": "iranian_churn.zip",
+      "url": "https://archive.ics.uci.edu/static/public/563/iranian+churn+dataset.zip",
+      "source": "https://doi.org/10.24432/C5JW3Z",
+      "license": "CC BY 4.0",
+      "bytes": 41943,
+      "sha256": "696c3a1812267980751f30d19193a1b430ac4ad76172bb089e664c96813ead66",
+      "members": [
+        "Customer Churn.csv"
+      ],
+      "extracted": [
+        {
+          "file": "iranian_churn.csv",
+          "bytes": 131728,
+          "sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1"
+        }
+      ]
+    },
+    {
+      "file": "online_retail_ii.zip",
+      "url": "https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip",
+      "source": "https://doi.org/10.24432/C5CG6D",
+      "license": "CC BY 4.0",
+      "bytes": 45622418,
+      "sha256": "572e36277c2390fbfde10664750731e0a86f55e33470d91919085f0408e67bfb",
+      "members": [
+        "online_retail_II.xlsx"
+      ],
+      "extracted": [
+        {
+          "file": "online_retail_ii.xlsx",
+          "bytes": 45622278,
+          "sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980"
+        }
+      ]
+    }
+  ]
+}

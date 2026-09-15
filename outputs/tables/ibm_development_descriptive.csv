@@ -1,0 +1,12 @@
+,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges
+count,5634,5634,5634,5634,5634.0,5634,5634,5634,5634,5634,5634,5634,5634,5634,5634,5634,5634,5634.0,5626.0
+unique,2,2,2,2,,2,3,3,3,3,3,3,3,3,3,2,4,,
+top,Male,0,No,No,,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,,
+freq,2873,4695,2913,3958,,5082,2702,2497,2828,2475,2505,2796,2269,2242,3126,3328,1901,,
+mean,,,,,32.16134185303515,,,,,,,,,,,,,64.78300496982605,2269.8360113757553
+std,,,,,24.463489863024186,,,,,,,,,,,,,30.01935573067774,2256.3787255458333
+min,,,,,0.0,,,,,,,,,,,,,18.25,18.8
+25%,,,,,9.0,,,,,,,,,,,,,35.65,399.70000000000005
+50%,,,,,28.0,,,,,,,,,,,,,70.45,1396.575
+75%,,,,,55.0,,,,,,,,,,,,,89.85,3751.9625
+max,,,,,72.0,,,,,,,,,,,,,118.75,8684.8

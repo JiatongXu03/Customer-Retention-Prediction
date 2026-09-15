@@ -1,0 +1,417 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 3842,
+    "sha256": "2ada5dcd2cfda89b1e1dc250f78ecb6f169881c7e753443b00aee1af14cdffe0"
+  },
+  {
+    "path": "build_report.py",
+    "bytes": 35734,
+    "sha256": "5ca4caa834d615e6d3be8b0f024df326a392de211c867d6e243ad60b614a8d62"
+  },
+  {
+    "path": "config/study_design.json",
+    "bytes": 1379,
+    "sha256": "c14a00c101ec6429737cabae6976902c51ea0553fdb045fdb12ba0ae01ecf5f2"
+  },
+  {
+    "path": "data/processed/retail_development_cohort.csv",
+    "bytes": 322351,
+    "sha256": "f2fe947af8b45d949a8d28fe9e78a2f03035b72876c788496973ab7f5b09eb27"
+  },
+  {
+    "path": "data/processed/retail_development_features.csv",
+    "bytes": 371376,
+    "sha256": "ac7e8036b588031fb1fdd72aa37b71d67e74ceb8cdb2099de06c1a4e24f9cd45"
+  },
+  {
+    "path": "data/processed/retail_development_snapshots.csv.gz",
+    "bytes": 377767,
+    "sha256": "328c9a38c0d1a1b14b3077000ae84c1ac90d87b0a34c5e3014462f804809051c"
+  },
+  {
+    "path": "data/processed/retail_valid_purchases.csv.gz",
+    "bytes": 13401704,
+    "sha256": "3a533e9032a315f143c3f45f2be458c273966590011a82d7a0ea50edbf2a19c2"
+  },
+  {
+    "path": "data/raw/IBM_LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "data/raw/ibm_telco.csv",
+    "bytes": 970457,
+    "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91"
+  },
+  {
+    "path": "data/raw/iranian_churn.csv",
+    "bytes": 131728,
+    "sha256": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1"
+  },
+  {
+    "path": "data/raw/online_retail_ii.xlsx",
+    "bytes": 45622278,
+    "sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980"
+  },
+  {
+    "path": "data/source_manifest.json",
+    "bytes": 1645,
+    "sha256": "b95235e057797dba9afbd6b073692d0a559161b572621ef3b0441bef704a94b6"
+  },
+  {
+    "path": "notebooks/01_source_and_quality_audit.html",
+    "bytes": 83549,
+    "sha256": "5046b61b582ce476312e8f4a6ec59ebdf4e8cbef2d88f4d229b9c5ef5424cb26"
+  },
+  {
+    "path": "notebooks/01_source_and_quality_audit.ipynb",
+    "bytes": 79993,
+    "sha256": "83ee10d776299e0bff5c6f16c38e60dedeb01d7ef7eab4035c5b2d794a9413f0"
+  },
+  {
+    "path": "notebooks/02_targets_cohorts_and_split_plan.html",
+    "bytes": 63965,
+    "sha256": "ec44aa1203716592f2ab885e4420801f7cd642f16a8905fe1f2c061359f51ae9"
+  },
+  {
+    "path": "notebooks/02_targets_cohorts_and_split_plan.ipynb",
+    "bytes": 60367,
+    "sha256": "f397ca5adc4ecb27b75ac0248602fea7f635695ef1baa970c24e8b5f972387c6"
+  },
+  {
+    "path": "notebooks/03_cross_dataset_framework.html",
+    "bytes": 14958,
+    "sha256": "ec8fd4edf328b8dedeae69d7d8226647f358b73997b49aa2e75960674d5c05c7"
+  },
+  {
+    "path": "notebooks/03_cross_dataset_framework.ipynb",
+    "bytes": 10732,
+    "sha256": "390ab7b70c912ff2dd19fb8ed4490fd86d22cd0ca22ff63899cd476530e1226c"
+  },
+  {
+    "path": "notebooks/04_development_eda.html",
+    "bytes": 256546,
+    "sha256": "ce584046da9370c5e8f82ec03eea65dda72b561a0759aee1ae6d63d7b1d5da11"
+  },
+  {
+    "path": "notebooks/04_development_eda.ipynb",
+    "bytes": 252980,
+    "sha256": "5878095f99f8293624b7ceacf161d81a4f049bd89dad6961f4798ec045ebbc3b"
+  },
+  {
+    "path": "notebooks/05_baseline_models_and_validation.html",
+    "bytes": 225409,
+    "sha256": "0620e3035dc8bc5d7ab3d019a31730a61c8aecaa62c1b0ce2f5da0004b22c80c"
+  },
+  {
+    "path": "notebooks/05_baseline_models_and_validation.ipynb",
+    "bytes": 221657,
+    "sha256": "c4d820fbf45e3de535496dee1dcef8d573de76b6b1be8e686ff4819d84f137b7"
+  },
+  {
+    "path": "notebooks/06_progress_report_evidence.html",
+    "bytes": 11325,
+    "sha256": "30973a7a4051c828a19f8fc71063061b27ab53079a9994d393f5d190b90cb547"
+  },
+  {
+    "path": "notebooks/06_progress_report_evidence.ipynb",
+    "bytes": 7196,
+    "sha256": "75aa92ed4fec84706e2b0ab808ed63c506b3244c230e327a8b55c9acaadbdade"
+  },
+  {
+    "path": "outputs/audit_summary.json",
+    "bytes": 262,
+    "sha256": "cf34f0cf24c4627ce89b15f85de7943de5f52317ed5b669a1f330558b861de07"
+  },
+  {
+    "path": "outputs/boundary_checks.json",
+    "bytes": 210,
+    "sha256": "f6aa56398a0c86a87da6568ae19941367f92e58154faa959460396773871f1b4"
+  },
+  {
+    "path": "outputs/environment.json",
+    "bytes": 172,
+    "sha256": "0537ebdc3a43f8782751327afb3ec6c6cedf83b033785a4183064675a22ddd0e"
+  },
+  {
+    "path": "outputs/execution_log.json",
+    "bytes": 767,
+    "sha256": "56340b59c624037eaf1ad01dba7b76ee323039fb8ccede8012fef5a0040cf288"
+  },
+  {
+    "path": "outputs/figures/baseline_auc.png",
+    "bytes": 60090,
+    "sha256": "449f4c31f0874b55bbd53764704a36027879623aee009101e63ba15a87df5390"
+  },
+  {
+    "path": "outputs/figures/baseline_reliability.png",
+    "bytes": 130296,
+    "sha256": "c067db18779568632dde5df00c4b8ba621d80cc44c0586f54f91e8d61a122447"
+  },
+  {
+    "path": "outputs/figures/development_eda.png",
+    "bytes": 239886,
+    "sha256": "a995e9d5c6cdb582796b0e4619ef528eccac9a56bcd2e66b9df0c6c8caa9819c"
+  },
+  {
+    "path": "outputs/figures/development_outcome_definitions.png",
+    "bytes": 43850,
+    "sha256": "935b3f33024b6013049ddde31e0909e8fa5115116835f40b2ccfb9a30099156c"
+  },
+  {
+    "path": "outputs/figures/report_eda_highlights.png",
+    "bytes": 132806,
+    "sha256": "36bc2e74bab31a0f04feed71658d0c9e5a7447da61ff5de4cea4c43f25eae2ac"
+  },
+  {
+    "path": "outputs/figures/retail_monthly_coverage.png",
+    "bytes": 63093,
+    "sha256": "bc19409f1c4f88f420690de290205567a6da3234eba68e92f30b341f2809a97d"
+  },
+  {
+    "path": "outputs/figures/retail_retention_forecast.png",
+    "bytes": 101314,
+    "sha256": "d1adcd5d7d9a20c2d433647b20b67efeb5dd563a0a9fc7de49aff8e66ec612d3"
+  },
+  {
+    "path": "outputs/report_quality_checks.json",
+    "bytes": 282,
+    "sha256": "c31c62ef5b743018725e3fe75e02c331cf565a325508328e770bb257ce2f9377"
+  },
+  {
+    "path": "outputs/retail_cohort_summary.json",
+    "bytes": 239,
+    "sha256": "24ec344e440a7c1596d473024480074862964f5bb788f4f5bd937b4cd11d2611"
+  },
+  {
+    "path": "outputs/tables/baseline_all_fold_metrics.csv",
+    "bytes": 8202,
+    "sha256": "b4a2b67dce894bb3563753b3216d14a60635e8622eecdb052a2296818aeac383"
+  },
+  {
+    "path": "outputs/tables/baseline_reliability_bins.csv",
+    "bytes": 1762,
+    "sha256": "3cb6527b12daa56ec42f5ac2a30ff82a42d81d81860060484198c2c22f96415b"
+  },
+  {
+    "path": "outputs/tables/baseline_retail_coefficients.csv",
+    "bytes": 1912,
+    "sha256": "32ff4dd41abbe8908d0b68212e50b25d495bd448fb4e14a05ccd493170e41f0a"
+  },
+  {
+    "path": "outputs/tables/baseline_retail_fold_metrics.csv",
+    "bytes": 2648,
+    "sha256": "a4e40a90876c82cadccff578fa831c6a0e4b4b74628cafca778a2b7fd0d0528b"
+  },
+  {
+    "path": "outputs/tables/baseline_retail_temporal_predictions.csv",
+    "bytes": 2083985,
+    "sha256": "3367470060a8cc9ecc2f5bf1faeae72575be317ad540511429943b7bde41a7a5"
+  },
+  {
+    "path": "outputs/tables/baseline_summary.csv",
+    "bytes": 3076,
+    "sha256": "653fdc255997fba2b3115951ace9b99e3e59649121aa4189d36cf78305b6f63d"
+  },
+  {
+    "path": "outputs/tables/baseline_telecom_coefficients.csv",
+    "bytes": 18871,
+    "sha256": "40488b4291fbfe331145253b4f2f9537e4718d0ebe6cfd5e89cc5040e8fda531"
+  },
+  {
+    "path": "outputs/tables/baseline_telecom_fold_metrics.csv",
+    "bytes": 5786,
+    "sha256": "83b1d4341085657521ce243cdc2c2d92c505459b1ac02b73d76f452469eae7fd"
+  },
+  {
+    "path": "outputs/tables/baseline_telecom_oof_predictions.csv",
+    "bytes": 1076011,
+    "sha256": "77e2e39a759179e059d97aac0d85693a4e68468e7ee426ada43fe761b77b93c6"
+  },
+  {
+    "path": "outputs/tables/baseline_validation_predictions.csv",
+    "bytes": 3159957,
+    "sha256": "7930ffd4772263224a61f5f59606475ffab08be96163565a7bfffaac60ccb996"
+  },
+  {
+    "path": "outputs/tables/dataset_inventory.csv",
+    "bytes": 146,
+    "sha256": "530814aed73e3198f2efe5cf1f36dd4b4c0a271c40dd09c0c7687824ac626594"
+  },
+  {
+    "path": "outputs/tables/eda_ibm_contract.csv",
+    "bytes": 284,
+    "sha256": "d7feb60245a4a1a9a64038e4ca3d785d566061843377229cae594dd6df78299e"
+  },
+  {
+    "path": "outputs/tables/eda_ibm_tenure.csv",
+    "bytes": 349,
+    "sha256": "561f30217de97b510a352131273ba30f8f303b370b69842ab5fedb2283b31d9e"
+  },
+  {
+    "path": "outputs/tables/eda_iranian_complaints.csv",
+    "bytes": 208,
+    "sha256": "dfa5f5eb3d8c6c83bab420aedd10b01462d3010bf3b92e4bf8f4214a4b773585"
+  },
+  {
+    "path": "outputs/tables/eda_iranian_usage.csv",
+    "bytes": 380,
+    "sha256": "870d8cebfcf0455d817ad040b9f1e42688422dd19f700957019733dec8a4b60a"
+  },
+  {
+    "path": "outputs/tables/eda_retail_frequency.csv",
+    "bytes": 371,
+    "sha256": "e7e89ffe26865a2361d45ab803ea00f8611b1bfbe3fe37e9fa09c82f71270d48"
+  },
+  {
+    "path": "outputs/tables/eda_retail_recency.csv",
+    "bytes": 366,
+    "sha256": "dd82ad2293ff6952f9b320b5de7d18ba429f1f120c17ac761d85bb9a09f059c0"
+  },
+  {
+    "path": "outputs/tables/feature_concept_map.csv",
+    "bytes": 1225,
+    "sha256": "53f7385684d72e9b9084de73891d07702f550a3f7e2140802af99e6de9a49bd5"
+  },
+  {
+    "path": "outputs/tables/field_quality_profile.csv",
+    "bytes": 2076,
+    "sha256": "6882a68486950a96545c2b3ce78ae877ee7c8f94be5d543d5a9fd8092d737cc6"
+  },
+  {
+    "path": "outputs/tables/first_progress_report_metrics.csv",
+    "bytes": 812,
+    "sha256": "1e6f942715c031f6a19fe83b9501978021a64f2a123df96f4624b6cf09c5f691"
+  },
+  {
+    "path": "outputs/tables/ibm_development_descriptive.csv",
+    "bytes": 930,
+    "sha256": "bfa414bef8a9316bea35da23f6276628141573ee5d741d4958cbb9d5b133f035"
+  },
+  {
+    "path": "outputs/tables/ibm_split_assignments.csv",
+    "bytes": 198937,
+    "sha256": "62ff952ec9d5d3ba9e25b043f9a402e55d3cbc6dc46c793e0f5f7799eaa11737"
+  },
+  {
+    "path": "outputs/tables/ibm_totalcharges_review.csv",
+    "bytes": 274,
+    "sha256": "615ca7f47602b2e9ae9d6a468ce3cac2ead2628020cbf28484de965f5c995577"
+  },
+  {
+    "path": "outputs/tables/iranian_development_descriptive.csv",
+    "bytes": 843,
+    "sha256": "b375e7fd247ce1ef866a163be13a41b61ade95477d4f89ca51b4a5b853b02fd9"
+  },
+  {
+    "path": "outputs/tables/iranian_split_assignments.csv",
+    "bytes": 117925,
+    "sha256": "95b44460522b00acf75807aa61541835061c0d818b174266c1a7a084e8497116"
+  },
+  {
+    "path": "outputs/tables/retail_cleaning_waterfall.csv",
+    "bytes": 244,
+    "sha256": "230163a0a36aa633e4881c18cc8f602c5c90e48c14fb7e0609ba54e972a004be"
+  },
+  {
+    "path": "outputs/tables/retail_development_descriptive.csv",
+    "bytes": 750,
+    "sha256": "bcd591dc51e7093dad736d13140047a025cee50c3543c28a9cf67429648b5d53"
+  },
+  {
+    "path": "outputs/tables/retail_horizon_sensitivity.csv",
+    "bytes": 102,
+    "sha256": "d184664bb2a4276887dd4112144536109d7a49be10b5834b5770523e561e2b18"
+  },
+  {
+    "path": "outputs/tables/retail_monthly_coverage.csv",
+    "bytes": 499,
+    "sha256": "dd37f7472e38392891cd7039abb051d724f42cef12ae965bd32921a22a72ebc3"
+  },
+  {
+    "path": "outputs/tables/retail_nonstandard_codes_review.csv",
+    "bytes": 379,
+    "sha256": "34014510f8bc24d92dedf944123f97cb0513c1ef6423fb238d3d5c7912c878bc"
+  },
+  {
+    "path": "outputs/tables/retail_quality_flags.csv",
+    "bytes": 272,
+    "sha256": "15c6faadad8d0b151f16cb2d9bcefdbcc0c34ef65dda5f5cfd7a446487bb3d4b"
+  },
+  {
+    "path": "outputs/tables/retail_rolling_validation_plan.csv",
+    "bytes": 488,
+    "sha256": "aea0a21b409d565b5ce6fb977200c22174aea83e47f089e8d363d325dd8eca18"
+  },
+  {
+    "path": "outputs/tables/retail_window_plan.csv",
+    "bytes": 222,
+    "sha256": "b4b20b51754a36340611720b4c114a3ddb104e95834b03c0545572d6881f78a2"
+  },
+  {
+    "path": "outputs/tables/telecom_development_balance.csv",
+    "bytes": 164,
+    "sha256": "1a25020dca0fb27475a80f27cce929097b33da9e9a3e4d5833825aeb34fa844b"
+  },
+  {
+    "path": "outputs/tables/telecom_development_fold_assignments.csv",
+    "bytes": 211382,
+    "sha256": "d3a109d397462ff0bf0c0f63ca9541ec2aeed3fed7bbd01bf35658bb36b7e0ca"
+  },
+  {
+    "path": "outputs/tables/three_layer_framework.csv",
+    "bytes": 713,
+    "sha256": "d0dd1cdd0d5bc8b73432f18ab15f29bf8d36b826647c6d3c6f4e0bae19816f5e"
+  },
+  {
+    "path": "outputs/week1_status.json",
+    "bytes": 389,
+    "sha256": "3dae9ec81dc27c0261866dfa299f4e25b7be6da3464e39ace05eae013288324c"
+  },
+  {
+    "path": "outputs/weeks1_4_status.json",
+    "bytes": 447,
+    "sha256": "816c18b28f6ea7d5da81d2c22cd96821c673569fdc134d8bc6d2e3f5366f60c4"
+  },
+  {
+    "path": "outputs/weeks1_4_validation_checks.json",
+    "bytes": 301,
+    "sha256": "f08c25acbd5b3f5f8f9e549384c42653dc7e3a46ab5daf72f94f0d2b289c4fe7"
+  },
+  {
+    "path": "reports/First_Progress_Report.html",
+    "bytes": 517988,
+    "sha256": "b8b8fbd8a2a82bfa6b61e692ab7f976191fbf56c4e1ee5882e79f99262f36870"
+  },
+  {
+    "path": "reports/methodology.md",
+    "bytes": 6792,
+    "sha256": "f9f99dcdabb7849870588ad642cf47b38982ea742ae615a855033d210609026f"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 173,
+    "sha256": "03aff2082e008a9701c60573f8fc141fdfd12a8c570a2f7a719eec19923e0370"
+  },
+  {
+    "path": "run_notebooks.py",
+    "bytes": 2672,
+    "sha256": "6b94779fddc32007c08ed49a2ce4bf9d850c7d5bc6e87dadc2813d58bdd7a40b"
+  },
+  {
+    "path": "src/audit_utils.py",
+    "bytes": 5152,
+    "sha256": "f32b96d9601fdfa9b15d6ad77b8c69a60f8f9e6c83f8502fdebf221e1fe47d6c"
+  },
+  {
+    "path": "src/baseline_utils.py",
+    "bytes": 9765,
+    "sha256": "fdf6bf8f462e1f0217ad64904058454d479423680db941bf939dbd2440b1bc00"
+  },
+  {
+    "path": "src/download_data.py",
+    "bytes": 2456,
+    "sha256": "710c9c26fe9c6bbe8d422278279b0c01399ec651ecbdbbaceb6ffa547d887858"
+  }
+]

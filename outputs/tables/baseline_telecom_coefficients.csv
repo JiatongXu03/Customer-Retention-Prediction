@@ -1,0 +1,321 @@
+dataset,fold,feature,coefficient
+ibm,1,numeric__tenure,-1.4193639586983067
+ibm,1,numeric__MonthlyCharges,0.15210037368840088
+ibm,1,numeric__TotalCharges,0.6967209537759438
+ibm,1,numeric__missingindicator_TotalCharges,-0.18002114991311935
+ibm,1,categorical__gender_Female,-0.11949022211698491
+ibm,1,categorical__gender_Male,-0.14609179042683343
+ibm,1,categorical__SeniorCitizen_0,-0.1945759752284133
+ibm,1,categorical__SeniorCitizen_1,-0.07100603731540783
+ibm,1,categorical__Partner_No,-0.17980830320585056
+ibm,1,categorical__Partner_Yes,-0.08577370933796934
+ibm,1,categorical__Dependents_No,-0.0493351297772037
+ibm,1,categorical__Dependents_Yes,-0.216246882766616
+ibm,1,categorical__PhoneService_No,0.08856068376167654
+ibm,1,categorical__PhoneService_Yes,-0.35414269630549783
+ibm,1,categorical__MultipleLines_No,-0.3123019588225173
+ibm,1,categorical__MultipleLines_No phone service,0.08856068376167654
+ibm,1,categorical__MultipleLines_Yes,-0.0418407374829762
+ibm,1,categorical__InternetService_DSL,-0.3517165855396871
+ibm,1,categorical__InternetService_Fiber optic,0.22897316301979007
+ibm,1,categorical__InternetService_No,-0.14283859002392119
+ibm,1,categorical__OnlineSecurity_No,0.14873304092120973
+ibm,1,categorical__OnlineSecurity_No internet service,-0.14283859002392119
+ibm,1,categorical__OnlineSecurity_Yes,-0.2714764634411074
+ibm,1,categorical__OnlineBackup_No,0.017099674246857675
+ibm,1,categorical__OnlineBackup_No internet service,-0.14283859002392119
+ibm,1,categorical__OnlineBackup_Yes,-0.13984309676675546
+ibm,1,categorical__DeviceProtection_No,0.0007203390166762608
+ibm,1,categorical__DeviceProtection_No internet service,-0.14283859002392119
+ibm,1,categorical__DeviceProtection_Yes,-0.12346376153657385
+ibm,1,categorical__TechSupport_No,0.1320821251277618
+ibm,1,categorical__TechSupport_No internet service,-0.14283859002392119
+ibm,1,categorical__TechSupport_Yes,-0.25482554764766063
+ibm,1,categorical__StreamingTV_No,-0.12204280105366136
+ibm,1,categorical__StreamingTV_No internet service,-0.14283859002392119
+ibm,1,categorical__StreamingTV_Yes,-0.0007006214662362658
+ibm,1,categorical__StreamingMovies_No,-0.13533852863174559
+ibm,1,categorical__StreamingMovies_No internet service,-0.14283859002392119
+ibm,1,categorical__StreamingMovies_Yes,0.012595106111846797
+ibm,1,categorical__Contract_Month-to-month,0.6297349101077219
+ibm,1,categorical__Contract_One year,-0.14934200394940358
+ibm,1,categorical__Contract_Two year,-0.745974918702136
+ibm,1,categorical__PaperlessBilling_No,-0.31109542794438183
+ibm,1,categorical__PaperlessBilling_Yes,0.04551341540056212
+ibm,1,categorical__PaymentMethod_Bank transfer (automatic),-0.1633801563696434
+ibm,1,categorical__PaymentMethod_Credit card (automatic),-0.16623155681326643
+ibm,1,categorical__PaymentMethod_Electronic check,0.2458123819703565
+ibm,1,categorical__PaymentMethod_Mailed check,-0.1817826813312685
+ibm,2,numeric__tenure,-1.4573058131612344
+ibm,2,numeric__MonthlyCharges,0.15143688023344762
+ibm,2,numeric__TotalCharges,0.7310510929716671
+ibm,2,numeric__missingindicator_TotalCharges,-0.16832452252731625
+ibm,2,categorical__gender_Female,-0.12934811137372904
+ibm,2,categorical__gender_Male,-0.12636209544941518
+ibm,2,categorical__SeniorCitizen_0,-0.2729427538503948
+ibm,2,categorical__SeniorCitizen_1,0.017232547027247684
+ibm,2,categorical__Partner_No,-0.15819116069062528
+ibm,2,categorical__Partner_Yes,-0.09751904613252091
+ibm,2,categorical__Dependents_No,-0.04116231569339391
+ibm,2,categorical__Dependents_Yes,-0.21454789112975012
+ibm,2,categorical__PhoneService_No,0.07598639669117194
+ibm,2,categorical__PhoneService_Yes,-0.3316966035143178
+ibm,2,categorical__MultipleLines_No,-0.2786362663273428
+ibm,2,categorical__MultipleLines_No phone service,0.07598639669117194
+ibm,2,categorical__MultipleLines_Yes,-0.053060337186973984
+ibm,2,categorical__InternetService_DSL,-0.36026670634573466
+ibm,2,categorical__InternetService_Fiber optic,0.2320950228851139
+ibm,2,categorical__InternetService_No,-0.127538523362523
+ibm,2,categorical__OnlineSecurity_No,0.1494840849753647
+ibm,2,categorical__OnlineSecurity_No internet service,-0.127538523362523
+ibm,2,categorical__OnlineSecurity_Yes,-0.27765576843598705
+ibm,2,categorical__OnlineBackup_No,0.031393782033123756
+ibm,2,categorical__OnlineBackup_No internet service,-0.127538523362523
+ibm,2,categorical__OnlineBackup_Yes,-0.1595654654937447
+ibm,2,categorical__DeviceProtection_No,-0.024616059032124167
+ibm,2,categorical__DeviceProtection_No internet service,-0.127538523362523
+ibm,2,categorical__DeviceProtection_Yes,-0.10355562442849682
+ibm,2,categorical__TechSupport_No,0.14282483982842273
+ibm,2,categorical__TechSupport_No internet service,-0.127538523362523
+ibm,2,categorical__TechSupport_Yes,-0.27099652328904716
+ibm,2,categorical__StreamingTV_No,-0.09727781622192819
+ibm,2,categorical__StreamingTV_No internet service,-0.127538523362523
+ibm,2,categorical__StreamingTV_Yes,-0.03089386723869296
+ibm,2,categorical__StreamingMovies_No,-0.18629827198402918
+ibm,2,categorical__StreamingMovies_No internet service,-0.127538523362523
+ibm,2,categorical__StreamingMovies_Yes,0.05812658852340978
+ibm,2,categorical__Contract_Month-to-month,0.5925780883307372
+ibm,2,categorical__Contract_One year,-0.07014078793253609
+ibm,2,categorical__Contract_Two year,-0.7781475072213467
+ibm,2,categorical__PaperlessBilling_No,-0.2793858334512719
+ibm,2,categorical__PaperlessBilling_Yes,0.02367562662812757
+ibm,2,categorical__PaymentMethod_Bank transfer (automatic),-0.10565113097257374
+ibm,2,categorical__PaymentMethod_Credit card (automatic),-0.1846060139574015
+ibm,2,categorical__PaymentMethod_Electronic check,0.23229521575796114
+ibm,2,categorical__PaymentMethod_Mailed check,-0.19774827765113265
+ibm,3,numeric__tenure,-1.4352029507853108
+ibm,3,numeric__MonthlyCharges,-0.3710355909200829
+ibm,3,numeric__TotalCharges,0.6856779403354754
+ibm,3,numeric__missingindicator_TotalCharges,-0.21632441421561446
+ibm,3,categorical__gender_Female,-0.13453451037939473
+ibm,3,categorical__gender_Male,-0.13973497225138537
+ibm,3,categorical__SeniorCitizen_0,-0.24481709721587105
+ibm,3,categorical__SeniorCitizen_1,-0.029452385414898266
+ibm,3,categorical__Partner_No,-0.16359617457694042
+ibm,3,categorical__Partner_Yes,-0.11067330805383652
+ibm,3,categorical__Dependents_No,-0.031922003888488586
+ibm,3,categorical__Dependents_Yes,-0.2423474787422879
+ibm,3,categorical__PhoneService_No,-0.08144465153211926
+ibm,3,categorical__PhoneService_Yes,-0.19282483109865023
+ibm,3,categorical__MultipleLines_No,-0.28143014082571055
+ibm,3,categorical__MultipleLines_No phone service,-0.08144465153211926
+ibm,3,categorical__MultipleLines_Yes,0.08860530972706136
+ibm,3,categorical__InternetService_DSL,-0.5146728002463768
+ibm,3,categorical__InternetService_Fiber optic,0.48480115128415757
+ibm,3,categorical__InternetService_No,-0.24439783366855056
+ibm,3,categorical__OnlineSecurity_No,0.15657830519993476
+ibm,3,categorical__OnlineSecurity_No internet service,-0.24439783366855056
+ibm,3,categorical__OnlineSecurity_Yes,-0.18644995416215623
+ibm,3,categorical__OnlineBackup_No,0.05230966223506433
+ibm,3,categorical__OnlineBackup_No internet service,-0.24439783366855056
+ibm,3,categorical__OnlineBackup_Yes,-0.08218131119728549
+ibm,3,categorical__DeviceProtection_No,-0.05483460976820971
+ibm,3,categorical__DeviceProtection_No internet service,-0.24439783366855056
+ibm,3,categorical__DeviceProtection_Yes,0.024962960805990274
+ibm,3,categorical__TechSupport_No,0.13941482933060734
+ibm,3,categorical__TechSupport_No internet service,-0.24439783366855056
+ibm,3,categorical__TechSupport_Yes,-0.16928647829283527
+ibm,3,categorical__StreamingTV_No,-0.1449045047670611
+ibm,3,categorical__StreamingTV_No internet service,-0.24439783366855056
+ibm,3,categorical__StreamingTV_Yes,0.11503285580484275
+ibm,3,categorical__StreamingMovies_No,-0.2026170067455932
+ibm,3,categorical__StreamingMovies_No internet service,-0.24439783366855056
+ibm,3,categorical__StreamingMovies_Yes,0.1727453577833832
+ibm,3,categorical__Contract_Month-to-month,0.5591181013594627
+ibm,3,categorical__Contract_One year,-0.002598166775657076
+ibm,3,categorical__Contract_Two year,-0.8307894172145964
+ibm,3,categorical__PaperlessBilling_No,-0.3256805696626474
+ibm,3,categorical__PaperlessBilling_Yes,0.05141108703186719
+ibm,3,categorical__PaymentMethod_Bank transfer (automatic),-0.044792755620045685
+ibm,3,categorical__PaymentMethod_Credit card (automatic),-0.3147232583510774
+ibm,3,categorical__PaymentMethod_Electronic check,0.2082648107344559
+ibm,3,categorical__PaymentMethod_Mailed check,-0.12301827939410584
+ibm,4,numeric__tenure,-1.4211421621231632
+ibm,4,numeric__MonthlyCharges,-0.5840557793573405
+ibm,4,numeric__TotalCharges,0.6682142485275431
+ibm,4,numeric__missingindicator_TotalCharges,-0.20254627136561829
+ibm,4,categorical__gender_Female,-0.14168217838885763
+ibm,4,categorical__gender_Male,-0.1348850357046686
+ibm,4,categorical__SeniorCitizen_0,-0.24268516142019547
+ibm,4,categorical__SeniorCitizen_1,-0.03388205267333714
+ibm,4,categorical__Partner_No,-0.17040344917747005
+ibm,4,categorical__Partner_Yes,-0.10616376491606482
+ibm,4,categorical__Dependents_No,-0.05691611667953608
+ibm,4,categorical__Dependents_Yes,-0.21965109741398928
+ibm,4,categorical__PhoneService_No,-0.07611177728202674
+ibm,4,categorical__PhoneService_Yes,-0.20045543681150296
+ibm,4,categorical__MultipleLines_No,-0.27481615547035176
+ibm,4,categorical__MultipleLines_No phone service,-0.07611177728202674
+ibm,4,categorical__MultipleLines_Yes,0.07436071865884372
+ibm,4,categorical__InternetService_DSL,-0.6158129334498045
+ibm,4,categorical__InternetService_Fiber optic,0.6107754091550127
+ibm,4,categorical__InternetService_No,-0.27152968979873054
+ibm,4,categorical__OnlineSecurity_No,0.10083523780239796
+ibm,4,categorical__OnlineSecurity_No internet service,-0.27152968979873054
+ibm,4,categorical__OnlineSecurity_Yes,-0.10587276209720253
+ibm,4,categorical__OnlineBackup_No,0.01297198228331208
+ibm,4,categorical__OnlineBackup_No internet service,-0.27152968979873054
+ibm,4,categorical__OnlineBackup_Yes,-0.018009506578110776
+ibm,4,categorical__DeviceProtection_No,-0.0136703441588012
+ibm,4,categorical__DeviceProtection_No internet service,-0.27152968979873054
+ibm,4,categorical__DeviceProtection_Yes,0.008632819863995873
+ibm,4,categorical__TechSupport_No,0.17548735871575882
+ibm,4,categorical__TechSupport_No internet service,-0.27152968979873054
+ibm,4,categorical__TechSupport_Yes,-0.18052488301057082
+ibm,4,categorical__StreamingTV_No,-0.20531177719354393
+ibm,4,categorical__StreamingTV_No internet service,-0.27152968979873054
+ibm,4,categorical__StreamingTV_Yes,0.20027425289874654
+ibm,4,categorical__StreamingMovies_No,-0.22630095045875767
+ibm,4,categorical__StreamingMovies_No internet service,-0.27152968979873054
+ibm,4,categorical__StreamingMovies_Yes,0.22126342616395653
+ibm,4,categorical__Contract_Month-to-month,0.590145982728789
+ibm,4,categorical__Contract_One year,-0.03917489739499385
+ibm,4,categorical__Contract_Two year,-0.8275382994273219
+ibm,4,categorical__PaperlessBilling_No,-0.3717358053223501
+ibm,4,categorical__PaperlessBilling_Yes,0.09516859122882416
+ibm,4,categorical__PaymentMethod_Bank transfer (automatic),-0.09801356671990136
+ibm,4,categorical__PaymentMethod_Credit card (automatic),-0.21056586581892353
+ibm,4,categorical__PaymentMethod_Electronic check,0.16784955114180783
+ibm,4,categorical__PaymentMethod_Mailed check,-0.13583733269650913
+ibm,5,numeric__tenure,-1.4358697336691126
+ibm,5,numeric__MonthlyCharges,0.15291902229455093
+ibm,5,numeric__TotalCharges,0.6912901686655007
+ibm,5,numeric__missingindicator_TotalCharges,-0.17041637915603408
+ibm,5,categorical__gender_Female,-0.14332938245087057
+ibm,5,categorical__gender_Male,-0.12132855750041997
+ibm,5,categorical__SeniorCitizen_0,-0.20928629328056497
+ibm,5,categorical__SeniorCitizen_1,-0.05537164667072518
+ibm,5,categorical__Partner_No,-0.167914810842034
+ibm,5,categorical__Partner_Yes,-0.09674312910925602
+ibm,5,categorical__Dependents_No,0.0075751017867595905
+ibm,5,categorical__Dependents_Yes,-0.2722330417380501
+ibm,5,categorical__PhoneService_No,0.08631021272461575
+ibm,5,categorical__PhoneService_Yes,-0.3509681526759065
+ibm,5,categorical__MultipleLines_No,-0.2750535961605853
+ibm,5,categorical__MultipleLines_No phone service,0.08631021272461575
+ibm,5,categorical__MultipleLines_Yes,-0.07591455651532042
+ibm,5,categorical__InternetService_DSL,-0.37053468638524956
+ibm,5,categorical__InternetService_Fiber optic,0.24801093435305493
+ibm,5,categorical__InternetService_No,-0.1421341879190952
+ibm,5,categorical__OnlineSecurity_No,0.14593672898045626
+ibm,5,categorical__OnlineSecurity_No internet service,-0.1421341879190952
+ibm,5,categorical__OnlineSecurity_Yes,-0.26846048101264974
+ibm,5,categorical__OnlineBackup_No,0.012052053301773528
+ibm,5,categorical__OnlineBackup_No internet service,-0.1421341879190952
+ibm,5,categorical__OnlineBackup_Yes,-0.13457580533396737
+ibm,5,categorical__DeviceProtection_No,-0.04795472236737039
+ibm,5,categorical__DeviceProtection_No internet service,-0.1421341879190952
+ibm,5,categorical__DeviceProtection_Yes,-0.07456902966482504
+ibm,5,categorical__TechSupport_No,0.14184599527058891
+ibm,5,categorical__TechSupport_No internet service,-0.1421341879190952
+ibm,5,categorical__TechSupport_Yes,-0.26436974730278495
+ibm,5,categorical__StreamingTV_No,-0.1283454617834871
+ibm,5,categorical__StreamingTV_No internet service,-0.1421341879190952
+ibm,5,categorical__StreamingTV_Yes,0.0058217097512938375
+ibm,5,categorical__StreamingMovies_No,-0.11197127899348043
+ibm,5,categorical__StreamingMovies_No internet service,-0.1421341879190952
+ibm,5,categorical__StreamingMovies_Yes,-0.010552473038712974
+ibm,5,categorical__Contract_Month-to-month,0.6081320459703469
+ibm,5,categorical__Contract_One year,-0.20479898906783342
+ibm,5,categorical__Contract_Two year,-0.6679909968538051
+ibm,5,categorical__PaperlessBilling_No,-0.3009935800125759
+ibm,5,categorical__PaperlessBilling_Yes,0.03633564006128545
+ibm,5,categorical__PaymentMethod_Bank transfer (automatic),-0.09026092753134156
+ibm,5,categorical__PaymentMethod_Credit card (automatic),-0.2632843278624791
+ibm,5,categorical__PaymentMethod_Electronic check,0.15727751991871483
+ibm,5,categorical__PaymentMethod_Mailed check,-0.06839020447618444
+iranian,1,numeric__Call  Failure,0.9848092222136168
+iranian,1,numeric__Subscription  Length,-0.020272538081392094
+iranian,1,numeric__Charge  Amount,-0.7902267646676759
+iranian,1,numeric__Seconds of Use,0.4557654753431344
+iranian,1,numeric__Frequency of use,-2.0585972127311325
+iranian,1,numeric__Frequency of SMS,-1.5814788401901678
+iranian,1,numeric__Distinct Called Numbers,-0.33989719438940863
+iranian,1,numeric__Age,-0.09623489992740519
+iranian,1,categorical__Complains_0,-1.953615188509948
+iranian,1,categorical__Complains_1,1.9206686955519756
+iranian,1,categorical__Age Group_1,-1.154647717150297
+iranian,1,categorical__Age Group_2,0.7299083214091765
+iranian,1,categorical__Age Group_3,0.6041122792080277
+iranian,1,categorical__Age Group_4,0.9236349327510615
+iranian,1,categorical__Age Group_5,-1.1359543091759565
+iranian,1,categorical__Tariff Plan_1,-0.2356756047802917
+iranian,1,categorical__Tariff Plan_2,0.2027291118223059
+iranian,2,numeric__Call  Failure,0.9642597160665504
+iranian,2,numeric__Subscription  Length,0.10138420626799781
+iranian,2,numeric__Charge  Amount,-0.766579504178327
+iranian,2,numeric__Seconds of Use,0.6535020836228262
+iranian,2,numeric__Frequency of use,-2.3855157185843425
+iranian,2,numeric__Frequency of SMS,-1.4540728125887108
+iranian,2,numeric__Distinct Called Numbers,-0.42378072523324845
+iranian,2,numeric__Age,-0.06633005468333321
+iranian,2,categorical__Complains_0,-1.9088550545688214
+iranian,2,categorical__Complains_1,1.9160443274110293
+iranian,2,categorical__Age Group_1,-1.096559557197091
+iranian,2,categorical__Age Group_2,0.7386068201430579
+iranian,2,categorical__Age Group_3,0.5455932182804807
+iranian,2,categorical__Age Group_4,0.8817919481637104
+iranian,2,categorical__Age Group_5,-1.0622431565479642
+iranian,2,categorical__Tariff Plan_1,-0.20926303478140643
+iranian,2,categorical__Tariff Plan_2,0.21645230762359696
+iranian,3,numeric__Call  Failure,0.9282727244501722
+iranian,3,numeric__Subscription  Length,0.11540502124378677
+iranian,3,numeric__Charge  Amount,-1.008970005252947
+iranian,3,numeric__Seconds of Use,0.8147688687179293
+iranian,3,numeric__Frequency of use,-2.4006720633042775
+iranian,3,numeric__Frequency of SMS,-1.4042890687380223
+iranian,3,numeric__Distinct Called Numbers,-0.3904165001563171
+iranian,3,numeric__Age,0.036242664837565705
+iranian,3,categorical__Complains_0,-1.9602087378601432
+iranian,3,categorical__Complains_1,1.9538560500366904
+iranian,3,categorical__Age Group_1,-1.0536470145991341
+iranian,3,categorical__Age Group_2,0.6570748996401805
+iranian,3,categorical__Age Group_3,0.5499276227202397
+iranian,3,categorical__Age Group_4,0.8213351580069628
+iranian,3,categorical__Age Group_5,-0.9810433535916985
+iranian,3,categorical__Tariff Plan_1,-0.30334277819217936
+iranian,3,categorical__Tariff Plan_2,0.29699009036872553
+iranian,4,numeric__Call  Failure,0.8741961928089624
+iranian,4,numeric__Subscription  Length,0.0028397370116536058
+iranian,4,numeric__Charge  Amount,-0.9422364454174932
+iranian,4,numeric__Seconds of Use,0.5956460031509738
+iranian,4,numeric__Frequency of use,-2.2486126357757117
+iranian,4,numeric__Frequency of SMS,-1.4254126478642553
+iranian,4,numeric__Distinct Called Numbers,-0.2680185334072156
+iranian,4,numeric__Age,-0.013440199436919101
+iranian,4,categorical__Complains_0,-1.9329293216875323
+iranian,4,categorical__Complains_1,1.9366859694522984
+iranian,4,categorical__Age Group_1,-1.0841948084313424
+iranian,4,categorical__Age Group_2,0.8284261108638189
+iranian,4,categorical__Age Group_3,0.45743530843730246
+iranian,4,categorical__Age Group_4,0.7286950758788523
+iranian,4,categorical__Age Group_5,-0.9266050389838688
+iranian,4,categorical__Tariff Plan_1,0.05213625344546259
+iranian,4,categorical__Tariff Plan_2,-0.048379605680703784
+iranian,5,numeric__Call  Failure,0.989066508465378
+iranian,5,numeric__Subscription  Length,0.05867653423705633
+iranian,5,numeric__Charge  Amount,-0.9640896998045276
+iranian,5,numeric__Seconds of Use,0.8024804936884178
+iranian,5,numeric__Frequency of use,-2.235118967349118
+iranian,5,numeric__Frequency of SMS,-1.5449830710800052
+iranian,5,numeric__Distinct Called Numbers,-0.40724423601268056
+iranian,5,numeric__Age,0.010807199998168784
+iranian,5,categorical__Complains_0,-2.009733733181691
+iranian,5,categorical__Complains_1,1.9920142538684946
+iranian,5,categorical__Age Group_1,-1.0967362299118786
+iranian,5,categorical__Age Group_2,0.7507527435549118
+iranian,5,categorical__Age Group_3,0.5169904005014415
+iranian,5,categorical__Age Group_4,0.790190734591524
+iranian,5,categorical__Age Group_5,-0.9789171280491865
+iranian,5,categorical__Tariff Plan_1,-0.16720313670031278
+iranian,5,categorical__Tariff Plan_2,0.14948365738712632

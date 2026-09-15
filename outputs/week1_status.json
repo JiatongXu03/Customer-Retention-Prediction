@@ -1,0 +1,15 @@
+{
+  "datasets_acquired": 3,
+  "raw_rows": {
+    "ibm": 7043,
+    "iranian": 3150,
+    "retail": 1067371
+  },
+  "field_profiles": 43,
+  "mapping_concepts": 7,
+  "models_fitted": 0,
+  "test_performance_computed": false,
+  "retail_test_labels_constructed": false,
+  "common_drivers_established": false,
+  "status": "Week 1 data/task feasibility completed; unresolved definitions documented"
+}

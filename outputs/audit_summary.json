@@ -1,0 +1,10 @@
+{
+  "date_min": "2009-12-01 07:45:00",
+  "date_max": "2011-12-09 12:50:00",
+  "valid_rows": 779425,
+  "valid_customers": 5878,
+  "valid_invoices": 36969,
+  "missing_customer_rows": 243007,
+  "iranian_conflicting_profile_groups": 22,
+  "ibm_numeric_missing": 11
+}
