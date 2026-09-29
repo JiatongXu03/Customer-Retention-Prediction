@@ -1,0 +1,14 @@
+{
+  "seed": 5920,
+  "selection_metric": "average_precision",
+  "inner_telecom_folds": 3,
+  "candidates": [
+    {"max_depth": 2, "n_estimators": 150, "learning_rate": 0.05},
+    {"max_depth": 2, "n_estimators": 300, "learning_rate": 0.05},
+    {"max_depth": 3, "n_estimators": 150, "learning_rate": 0.05},
+    {"max_depth": 3, "n_estimators": 300, "learning_rate": 0.05}
+  ],
+  "fixed_parameters": {"min_child_weight": 5, "reg_lambda": 5, "subsample": 1.0, "colsample_bytree": 1.0},
+  "retail_first_origin_policy": "Use candidate 0 without tuning when no earlier forward validation is possible",
+  "final_test_policy": "No final holdout evaluation or final retail label construction"
+}

@@ -1,0 +1,15 @@
+dataset,fold,train_n,validation_n,inner_folds,candidate,selection,separation_passed
+ibm,1,4507,1127,3,0,inner AP,True
+ibm,2,4507,1127,3,1,inner AP,True
+ibm,3,4507,1127,3,2,inner AP,True
+ibm,4,4507,1127,3,0,inner AP,True
+ibm,5,4508,1126,3,0,inner AP,True
+iranian,1,2011,510,3,3,inner AP,True
+iranian,2,2017,504,3,3,inner AP,True
+iranian,3,2019,502,3,3,inner AP,True
+iranian,4,2017,504,3,3,inner AP,True
+iranian,5,2020,501,3,3,inner AP,True
+retail,2010-09-01,2669,2831,0,0,pre-specified fallback,True
+retail,2010-12-01,5500,3479,1,2,inner AP,True
+retail,2011-03-01,8979,3349,2,2,inner AP,True
+retail,2011-06-01,12328,2659,3,2,inner AP,True

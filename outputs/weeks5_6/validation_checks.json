@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "reconciled_metric_rows": 42,
+  "reproduced_baseline_rows": 28,
+  "final_holdout_predictions": 0,
+  "prediction_rows": 61419,
+  "candidate_selection_verified": true,
+  "retail_prediction_coverage_verified": true
+}

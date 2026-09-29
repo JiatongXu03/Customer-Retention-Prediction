@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.mplconfig/
+.checkin_build/
+.chart-data-*/

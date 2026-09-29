@@ -1,5 +1,7 @@
 # Methods for the First Progress Report
 
+> Historical Weeks 1–4 methodology. The cumulative project now includes a Weeks 5–6 extension documented in `weeks5_6_methodology.md` and `Second_Progress_Report.html`; later-stage statements below describe the original baseline milestone.
+
 ## Scope and stage
 
 This deliverable covers the work scheduled for Weeks 1–4: acquisition, data documentation, cleaning decisions, development-set exploratory analysis, reproducible preprocessing, and initial baseline validation. These are completed analyses, not simulated results or an assertion that four calendar weeks have elapsed.

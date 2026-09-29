@@ -1,0 +1,58 @@
+{
+  "python": "3.12.13",
+  "sklearn": "1.8.0",
+  "xgboost": "3.0.5",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "config": {
+    "seed": 5920,
+    "selection_metric": "average_precision",
+    "inner_telecom_folds": 3,
+    "candidates": [
+      {
+        "max_depth": 2,
+        "n_estimators": 150,
+        "learning_rate": 0.05
+      },
+      {
+        "max_depth": 2,
+        "n_estimators": 300,
+        "learning_rate": 0.05
+      },
+      {
+        "max_depth": 3,
+        "n_estimators": 150,
+        "learning_rate": 0.05
+      },
+      {
+        "max_depth": 3,
+        "n_estimators": 300,
+        "learning_rate": 0.05
+      }
+    ],
+    "fixed_parameters": {
+      "min_child_weight": 5,
+      "reg_lambda": 5,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0
+    },
+    "retail_first_origin_policy": "Use candidate 0 without tuning when no earlier forward validation is possible",
+    "final_test_policy": "No final holdout evaluation or final retail label construction"
+  },
+  "input_sha256": {
+    "config/study_design.json": "c14a00c101ec6429737cabae6976902c51ea0553fdb045fdb12ba0ae01ecf5f2",
+    "config/weeks5_6_experiment.json": "da63a20f4c954fa2c5569b65e2c5f737580b6f9cefef06616c9e5339bcc8a565",
+    "data/raw/ibm_telco.csv": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+    "data/raw/iranian_churn.csv": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+    "data/processed/retail_development_snapshots.csv.gz": "328c9a38c0d1a1b14b3077000ae84c1ac90d87b0a34c5e3014462f804809051c",
+    "outputs/tables/telecom_development_fold_assignments.csv": "d3a109d397462ff0bf0c0f63ca9541ec2aeed3fed7bbd01bf35658bb36b7e0ca",
+    "outputs/tables/ibm_split_assignments.csv": "62ff952ec9d5d3ba9e25b043f9a402e55d3cbc6dc46c793e0f5f7799eaa11737",
+    "outputs/tables/iranian_split_assignments.csv": "95b44460522b00acf75807aa61541835061c0d818b174266c1a7a084e8497116",
+    "src/advanced_models.py": "318b1af569090361151da9da04c3113cc7858a9f59192170a11a04069a6eaa5b",
+    "src/baseline_utils.py": "fdf6bf8f462e1f0217ad64904058454d479423680db941bf939dbd2440b1bc00"
+  },
+  "final_test_evaluated": false,
+  "outer_splits": 14,
+  "inner_fits": 144,
+  "outer_fits": 42
+}

@@ -1,4 +1,25 @@
-# Customer Retention — Weeks 1–4
+# Customer Retention — Weeks 1–6
+
+## Latest milestone: Weeks 5–6
+
+Open **[Second Progress Report](reports/Second_Progress_Report.html)** for the TA check-in, or read the concise [progress notes](reports/Weeks_5_6_Progress.md).
+
+The **[second check-in slide deck](reports/Second_Check_In_Report.pptx)** presents current progress, validation methods, editable result charts, model explanations, and the Weeks 7–8 plan in eight slides.
+
+The new milestone adds XGBoost with nested training-only selection, matched baseline reruns, held-out TreeSHAP diagnostics, probability-quality and capacity comparisons, and independent result validation. Final test sets remain reserved. The earlier report and notebooks below are historical Weeks 1–4 artifacts.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+# macOS only, if OpenMP is missing: brew install libomp
+python run_weeks5_6.py
+python -m unittest discover -s tests
+```
+
+The new runner uses the supplied development snapshots and frozen fold assignments; it does not require re-executing the six earlier notebooks. The experiment design is in `config/weeks5_6_experiment.json`; all new evidence is in `outputs/weeks5_6/`. `validate_weeks5_6.py` independently checks predictions and metrics; `build_weeks5_6_report.py` regenerates the report from validated saved results. `run_metadata.json` records the executed environment and SHA-256 input hashes. `FILE_MANIFEST.json` remains the original Weeks 1–4 package manifest, not a manifest of this new milestone.
+
+## Historical milestone: Weeks 1–4
 
 **INFO 5920 · First Progress Report**  
 Jiatong Xu (jx429) · Zhiming Zhang (zz939)
