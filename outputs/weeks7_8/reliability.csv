@@ -1,0 +1,763 @@
+dataset,fold,base_model,method,bin,n,mean_p,observed_rate
+ibm,1,Logistic Regression,isotonic,0,465,0.04331668035275276,0.043010752688172046
+ibm,1,Logistic Regression,isotonic,1,22,0.15217391304347833,0.18181818181818182
+ibm,1,Logistic Regression,isotonic,2,210,0.24084200747002402,0.23809523809523808
+ibm,1,Logistic Regression,isotonic,3,143,0.36002003920919107,0.34265734265734266
+ibm,1,Logistic Regression,isotonic,4,47,0.46215556330659213,0.44680851063829785
+ibm,1,Logistic Regression,isotonic,5,69,0.5675603940138187,0.5797101449275363
+ibm,1,Logistic Regression,isotonic,6,69,0.6136858540731968,0.6521739130434783
+ibm,1,Logistic Regression,isotonic,7,65,0.7531173204170069,0.6461538461538462
+ibm,1,Logistic Regression,isotonic,8,37,0.8485993522684933,0.7567567567567568
+ibm,1,Logistic Regression,raw,0,415,0.03414549072489027,0.03855421686746988
+ibm,1,Logistic Regression,raw,1,149,0.1497519310224671,0.2080536912751678
+ibm,1,Logistic Regression,raw,2,118,0.25025257926499145,0.1864406779661017
+ibm,1,Logistic Regression,raw,3,91,0.34410773477411627,0.2967032967032967
+ibm,1,Logistic Regression,raw,4,95,0.44945078137986133,0.4
+ibm,1,Logistic Regression,raw,5,86,0.5494420120768312,0.5697674418604651
+ibm,1,Logistic Regression,raw,6,92,0.6512571621630963,0.6086956521739131
+ibm,1,Logistic Regression,raw,7,74,0.743398773120846,0.7297297297297297
+ibm,1,Logistic Regression,raw,8,7,0.8200480333544942,0.8571428571428571
+ibm,1,Logistic Regression,sigmoid,0,406,0.035469896068539244,0.034482758620689655
+ibm,1,Logistic Regression,sigmoid,1,155,0.15113003737975625,0.2064516129032258
+ibm,1,Logistic Regression,sigmoid,2,115,0.2504504675802024,0.1826086956521739
+ibm,1,Logistic Regression,sigmoid,3,97,0.34284075169931344,0.29896907216494845
+ibm,1,Logistic Regression,sigmoid,4,99,0.4495177396222812,0.3939393939393939
+ibm,1,Logistic Regression,sigmoid,5,86,0.5488472099661384,0.5813953488372093
+ibm,1,Logistic Regression,sigmoid,6,97,0.6500226863531346,0.6185567010309279
+ibm,1,Logistic Regression,sigmoid,7,67,0.740922196861082,0.7313432835820896
+ibm,1,Logistic Regression,sigmoid,8,5,0.8165664444148358,1.0
+ibm,1,XGBoost fixed candidate 0,isotonic,0,415,0.03876488122095125,0.03614457831325301
+ibm,1,XGBoost fixed candidate 0,isotonic,1,122,0.15482332107106211,0.1721311475409836
+ibm,1,XGBoost fixed candidate 0,isotonic,2,182,0.2494376703658407,0.22527472527472528
+ibm,1,XGBoost fixed candidate 0,isotonic,3,115,0.36284040263808265,0.34782608695652173
+ibm,1,XGBoost fixed candidate 0,isotonic,4,5,0.42857142857142855,0.8
+ibm,1,XGBoost fixed candidate 0,isotonic,5,89,0.5312779892774911,0.449438202247191
+ibm,1,XGBoost fixed candidate 0,isotonic,6,128,0.6314886902878944,0.609375
+ibm,1,XGBoost fixed candidate 0,isotonic,7,26,0.7302241115072687,0.8461538461538461
+ibm,1,XGBoost fixed candidate 0,isotonic,8,43,0.8677926196425136,0.8372093023255814
+ibm,1,XGBoost fixed candidate 0,isotonic,9,2,1.0,1.0
+ibm,1,XGBoost fixed candidate 0,raw,0,385,0.038764136214438194,0.033766233766233764
+ibm,1,XGBoost fixed candidate 0,raw,1,185,0.15008038411269317,0.16216216216216217
+ibm,1,XGBoost fixed candidate 0,raw,2,113,0.2514772343952044,0.20353982300884957
+ibm,1,XGBoost fixed candidate 0,raw,3,109,0.34970091296992173,0.29357798165137616
+ibm,1,XGBoost fixed candidate 0,raw,4,94,0.4546726456982024,0.46808510638297873
+ibm,1,XGBoost fixed candidate 0,raw,5,92,0.5526942403420158,0.5978260869565217
+ibm,1,XGBoost fixed candidate 0,raw,6,69,0.6487061580022176,0.5797101449275363
+ibm,1,XGBoost fixed candidate 0,raw,7,47,0.7373019101771903,0.7446808510638298
+ibm,1,XGBoost fixed candidate 0,raw,8,33,0.8303651430390098,0.8181818181818182
+ibm,1,XGBoost fixed candidate 0,sigmoid,0,392,0.0370279357329203,0.03571428571428571
+ibm,1,XGBoost fixed candidate 0,sigmoid,1,179,0.14800506470235578,0.16201117318435754
+ibm,1,XGBoost fixed candidate 0,sigmoid,2,112,0.24991576085007947,0.20535714285714285
+ibm,1,XGBoost fixed candidate 0,sigmoid,3,106,0.3496710397774472,0.3018867924528302
+ibm,1,XGBoost fixed candidate 0,sigmoid,4,93,0.45636133853947514,0.45161290322580644
+ibm,1,XGBoost fixed candidate 0,sigmoid,5,87,0.5545775704537313,0.5632183908045977
+ibm,1,XGBoost fixed candidate 0,sigmoid,6,73,0.6500933272321828,0.589041095890411
+ibm,1,XGBoost fixed candidate 0,sigmoid,7,48,0.7405390283951815,0.75
+ibm,1,XGBoost fixed candidate 0,sigmoid,8,35,0.8344744617138751,0.8285714285714286
+ibm,1,XGBoost fixed candidate 0,sigmoid,9,2,0.9035318356273816,1.0
+ibm,2,Logistic Regression,isotonic,0,397,0.03288920471039718,0.03526448362720403
+ibm,2,Logistic Regression,isotonic,1,104,0.11999037454989787,0.11538461538461539
+ibm,2,Logistic Regression,isotonic,2,172,0.2249511268557355,0.20930232558139536
+ibm,2,Logistic Regression,isotonic,3,131,0.3505608350210313,0.37404580152671757
+ibm,2,Logistic Regression,isotonic,4,65,0.40200668487179675,0.4153846153846154
+ibm,2,Logistic Regression,isotonic,5,92,0.530919007638199,0.5108695652173914
+ibm,2,Logistic Regression,isotonic,6,120,0.6772626737130554,0.6416666666666667
+ibm,2,Logistic Regression,isotonic,7,35,0.7609756097560977,0.7428571428571429
+ibm,2,Logistic Regression,isotonic,8,9,0.8571428571428571,1.0
+ibm,2,Logistic Regression,isotonic,9,2,1.0,1.0
+ibm,2,Logistic Regression,raw,0,416,0.03379208270277223,0.040865384615384616
+ibm,2,Logistic Regression,raw,1,137,0.14730209060009958,0.13138686131386862
+ibm,2,Logistic Regression,raw,2,135,0.24522194722144325,0.2222222222222222
+ibm,2,Logistic Regression,raw,3,86,0.35574137819833335,0.3372093023255814
+ibm,2,Logistic Regression,raw,4,98,0.4508336797233774,0.46938775510204084
+ibm,2,Logistic Regression,raw,5,92,0.5482852629772769,0.5
+ibm,2,Logistic Regression,raw,6,107,0.6437390232023958,0.6448598130841121
+ibm,2,Logistic Regression,raw,7,49,0.7439582140665909,0.7551020408163265
+ibm,2,Logistic Regression,raw,8,7,0.8242024336395024,1.0
+ibm,2,Logistic Regression,sigmoid,0,404,0.03517337472737212,0.03712871287128713
+ibm,2,Logistic Regression,sigmoid,1,142,0.14660520764396728,0.1267605633802817
+ibm,2,Logistic Regression,sigmoid,2,138,0.24553784611840118,0.21739130434782608
+ibm,2,Logistic Regression,sigmoid,3,91,0.35407311130056307,0.3516483516483517
+ibm,2,Logistic Regression,sigmoid,4,101,0.4495761617405472,0.45544554455445546
+ibm,2,Logistic Regression,sigmoid,5,103,0.5502440883312217,0.5145631067961165
+ibm,2,Logistic Regression,sigmoid,6,102,0.6444469363055024,0.6666666666666666
+ibm,2,Logistic Regression,sigmoid,7,40,0.7424228520425391,0.775
+ibm,2,Logistic Regression,sigmoid,8,6,0.814274977151621,1.0
+ibm,2,XGBoost fixed candidate 0,isotonic,0,405,0.03320349279697168,0.02962962962962963
+ibm,2,XGBoost fixed candidate 0,isotonic,1,135,0.15368665332143078,0.14074074074074075
+ibm,2,XGBoost fixed candidate 0,isotonic,2,143,0.23527977426587823,0.20279720279720279
+ibm,2,XGBoost fixed candidate 0,isotonic,3,110,0.33087851256425926,0.34545454545454546
+ibm,2,XGBoost fixed candidate 0,isotonic,4,82,0.43119064631069803,0.4878048780487805
+ibm,2,XGBoost fixed candidate 0,isotonic,5,40,0.517567371261834,0.5
+ibm,2,XGBoost fixed candidate 0,isotonic,6,147,0.6197659187898763,0.5714285714285714
+ibm,2,XGBoost fixed candidate 0,isotonic,7,19,0.7215690725555304,0.6842105263157895
+ibm,2,XGBoost fixed candidate 0,isotonic,8,45,0.8107262842831836,0.9555555555555556
+ibm,2,XGBoost fixed candidate 0,isotonic,9,1,1.0,1.0
+ibm,2,XGBoost fixed candidate 0,raw,0,415,0.043000836302357986,0.03132530120481928
+ibm,2,XGBoost fixed candidate 0,raw,1,148,0.15198222371573383,0.18243243243243243
+ibm,2,XGBoost fixed candidate 0,raw,2,107,0.24867549803212424,0.14953271028037382
+ibm,2,XGBoost fixed candidate 0,raw,3,120,0.3505420558154583,0.3416666666666667
+ibm,2,XGBoost fixed candidate 0,raw,4,106,0.453440323190869,0.4716981132075472
+ibm,2,XGBoost fixed candidate 0,raw,5,100,0.5521758252382278,0.58
+ibm,2,XGBoost fixed candidate 0,raw,6,79,0.6497743016556848,0.5822784810126582
+ibm,2,XGBoost fixed candidate 0,raw,7,35,0.749694001674652,0.8857142857142857
+ibm,2,XGBoost fixed candidate 0,raw,8,17,0.8294458108789781,1.0
+ibm,2,XGBoost fixed candidate 0,sigmoid,0,426,0.04065136702997756,0.03990610328638498
+ibm,2,XGBoost fixed candidate 0,sigmoid,1,138,0.15039562710331167,0.16666666666666666
+ibm,2,XGBoost fixed candidate 0,sigmoid,2,117,0.25016049560345077,0.1623931623931624
+ibm,2,XGBoost fixed candidate 0,sigmoid,3,108,0.35516552034409554,0.35185185185185186
+ibm,2,XGBoost fixed candidate 0,sigmoid,4,101,0.4543811614866603,0.4752475247524752
+ibm,2,XGBoost fixed candidate 0,sigmoid,5,91,0.5498296214926893,0.5384615384615384
+ibm,2,XGBoost fixed candidate 0,sigmoid,6,85,0.6464808627053197,0.6
+ibm,2,XGBoost fixed candidate 0,sigmoid,7,38,0.7422626613193849,0.8157894736842105
+ibm,2,XGBoost fixed candidate 0,sigmoid,8,23,0.8329182365110684,1.0
+ibm,3,Logistic Regression,isotonic,0,474,0.04575201861342814,0.04008438818565401
+ibm,3,Logistic Regression,isotonic,1,63,0.1468428679370967,0.2857142857142857
+ibm,3,Logistic Regression,isotonic,2,196,0.22812552809424558,0.24489795918367346
+ibm,3,Logistic Regression,isotonic,3,88,0.34760959578476014,0.32954545454545453
+ibm,3,Logistic Regression,isotonic,4,68,0.424940334449775,0.39705882352941174
+ibm,3,Logistic Regression,isotonic,5,88,0.5440619429590017,0.5113636363636364
+ibm,3,Logistic Regression,isotonic,6,99,0.6790206648697215,0.696969696969697
+ibm,3,Logistic Regression,isotonic,7,42,0.7554347826086957,0.8333333333333334
+ibm,3,Logistic Regression,isotonic,9,9,0.9019607843137254,1.0
+ibm,3,Logistic Regression,raw,0,422,0.0339118575235694,0.037914691943127965
+ibm,3,Logistic Regression,raw,1,178,0.14770914818332873,0.20786516853932585
+ibm,3,Logistic Regression,raw,2,124,0.24827965266269875,0.24193548387096775
+ibm,3,Logistic Regression,raw,3,84,0.3530965125215713,0.32142857142857145
+ibm,3,Logistic Regression,raw,4,79,0.4496726919758451,0.379746835443038
+ibm,3,Logistic Regression,raw,5,90,0.5504993849974789,0.5111111111111111
+ibm,3,Logistic Regression,raw,6,91,0.6511413993936643,0.7142857142857143
+ibm,3,Logistic Regression,raw,7,52,0.7392026475969106,0.7884615384615384
+ibm,3,Logistic Regression,raw,8,7,0.8140646184166745,1.0
+ibm,3,Logistic Regression,sigmoid,0,414,0.034622321282718964,0.03864734299516908
+ibm,3,Logistic Regression,sigmoid,1,184,0.14865134163120883,0.20108695652173914
+ibm,3,Logistic Regression,sigmoid,2,126,0.24982523463620532,0.23809523809523808
+ibm,3,Logistic Regression,sigmoid,3,84,0.35300876034630657,0.32142857142857145
+ibm,3,Logistic Regression,sigmoid,4,81,0.4482995449788087,0.38271604938271603
+ibm,3,Logistic Regression,sigmoid,5,94,0.5496519113430115,0.5319148936170213
+ibm,3,Logistic Regression,sigmoid,6,93,0.6512390860717661,0.6881720430107527
+ibm,3,Logistic Regression,sigmoid,7,46,0.7401761556103668,0.8478260869565217
+ibm,3,Logistic Regression,sigmoid,8,5,0.8085640655603774,1.0
+ibm,3,XGBoost fixed candidate 0,isotonic,0,444,0.03935331790663371,0.038288288288288286
+ibm,3,XGBoost fixed candidate 0,isotonic,1,185,0.16350341589472023,0.1837837837837838
+ibm,3,XGBoost fixed candidate 0,isotonic,2,63,0.27006310042559306,0.31746031746031744
+ibm,3,XGBoost fixed candidate 0,isotonic,3,156,0.31975888909269323,0.3525641025641026
+ibm,3,XGBoost fixed candidate 0,isotonic,4,83,0.47933648119640837,0.42168674698795183
+ibm,3,XGBoost fixed candidate 0,isotonic,5,18,0.5730240549828178,0.6111111111111112
+ibm,3,XGBoost fixed candidate 0,isotonic,6,126,0.6330172205838775,0.6666666666666666
+ibm,3,XGBoost fixed candidate 0,isotonic,7,10,0.7175925925925926,0.6
+ibm,3,XGBoost fixed candidate 0,isotonic,8,29,0.853068671987669,0.896551724137931
+ibm,3,XGBoost fixed candidate 0,isotonic,9,13,0.9200838474868248,0.8461538461538461
+ibm,3,XGBoost fixed candidate 0,raw,0,419,0.042723453305839494,0.031026252983293555
+ibm,3,XGBoost fixed candidate 0,raw,1,171,0.14622313463897035,0.18128654970760233
+ibm,3,XGBoost fixed candidate 0,raw,2,133,0.24977303738880874,0.2706766917293233
+ibm,3,XGBoost fixed candidate 0,raw,3,93,0.3478586769873096,0.3548387096774194
+ibm,3,XGBoost fixed candidate 0,raw,4,97,0.44627008333648605,0.38144329896907214
+ibm,3,XGBoost fixed candidate 0,raw,5,86,0.5576783286970716,0.6395348837209303
+ibm,3,XGBoost fixed candidate 0,raw,6,67,0.6399984688901189,0.6567164179104478
+ibm,3,XGBoost fixed candidate 0,raw,7,46,0.7442206805166991,0.8043478260869565
+ibm,3,XGBoost fixed candidate 0,raw,8,15,0.8325935403505961,0.8666666666666667
+ibm,3,XGBoost fixed candidate 0,sigmoid,0,440,0.039843064549517596,0.03636363636363636
+ibm,3,XGBoost fixed candidate 0,sigmoid,1,161,0.14635519087307075,0.18012422360248448
+ibm,3,XGBoost fixed candidate 0,sigmoid,2,126,0.2494340291512268,0.29365079365079366
+ibm,3,XGBoost fixed candidate 0,sigmoid,3,88,0.3485931539434011,0.3409090909090909
+ibm,3,XGBoost fixed candidate 0,sigmoid,4,91,0.4473588327676878,0.38461538461538464
+ibm,3,XGBoost fixed candidate 0,sigmoid,5,73,0.5535503203337192,0.6301369863013698
+ibm,3,XGBoost fixed candidate 0,sigmoid,6,79,0.638977754865089,0.6455696202531646
+ibm,3,XGBoost fixed candidate 0,sigmoid,7,46,0.7463463945936816,0.7608695652173914
+ibm,3,XGBoost fixed candidate 0,sigmoid,8,22,0.8340714000266991,0.8636363636363636
+ibm,3,XGBoost fixed candidate 0,sigmoid,9,1,0.9069311742209243,1.0
+ibm,4,Logistic Regression,isotonic,0,424,0.033738564880564564,0.04009433962264151
+ibm,4,Logistic Regression,isotonic,1,96,0.13201783161801814,0.0625
+ibm,4,Logistic Regression,isotonic,2,153,0.22241042489008703,0.23529411764705882
+ibm,4,Logistic Regression,isotonic,3,169,0.32871753911840895,0.33136094674556216
+ibm,4,Logistic Regression,isotonic,4,28,0.409090909090909,0.5
+ibm,4,Logistic Regression,isotonic,5,128,0.5548696630326413,0.6171875
+ibm,4,Logistic Regression,isotonic,6,56,0.6857424884437595,0.6785714285714286
+ibm,4,Logistic Regression,isotonic,7,31,0.7687245247301671,0.6774193548387096
+ibm,4,Logistic Regression,isotonic,8,36,0.849959659974859,0.7777777777777778
+ibm,4,Logistic Regression,isotonic,9,6,0.9479166666666666,0.6666666666666666
+ibm,4,Logistic Regression,raw,0,422,0.032453397230283156,0.04028436018957346
+ibm,4,Logistic Regression,raw,1,164,0.15051941848931638,0.14634146341463414
+ibm,4,Logistic Regression,raw,2,114,0.255602002783342,0.22807017543859648
+ibm,4,Logistic Regression,raw,3,97,0.3455728520108482,0.35051546391752575
+ibm,4,Logistic Regression,raw,4,85,0.4500445871141595,0.4
+ibm,4,Logistic Regression,raw,5,83,0.5481364214752058,0.6265060240963856
+ibm,4,Logistic Regression,raw,6,83,0.6477921996747077,0.6506024096385542
+ibm,4,Logistic Regression,raw,7,73,0.7421186584414694,0.7397260273972602
+ibm,4,Logistic Regression,raw,8,6,0.8130675953402503,0.6666666666666666
+ibm,4,Logistic Regression,sigmoid,0,419,0.032973530348603605,0.03579952267303103
+ibm,4,Logistic Regression,sigmoid,1,163,0.1502010854857357,0.15337423312883436
+ibm,4,Logistic Regression,sigmoid,2,117,0.2543627802844787,0.2222222222222222
+ibm,4,Logistic Regression,sigmoid,3,99,0.34561682347345607,0.35353535353535354
+ibm,4,Logistic Regression,sigmoid,4,84,0.44913285462277425,0.40476190476190477
+ibm,4,Logistic Regression,sigmoid,5,86,0.547180543714974,0.6162790697674418
+ibm,4,Logistic Regression,sigmoid,6,83,0.6475174727907108,0.6746987951807228
+ibm,4,Logistic Regression,sigmoid,7,72,0.7410811057298423,0.7361111111111112
+ibm,4,Logistic Regression,sigmoid,8,4,0.8141365377191796,0.5
+ibm,4,XGBoost fixed candidate 0,isotonic,0,436,0.037532979680344775,0.03211009174311927
+ibm,4,XGBoost fixed candidate 0,isotonic,1,175,0.17075611790771625,0.15428571428571428
+ibm,4,XGBoost fixed candidate 0,isotonic,2,108,0.2542817002627877,0.28703703703703703
+ibm,4,XGBoost fixed candidate 0,isotonic,3,114,0.3280917180620841,0.3333333333333333
+ibm,4,XGBoost fixed candidate 0,isotonic,4,62,0.45017921146953405,0.5806451612903226
+ibm,4,XGBoost fixed candidate 0,isotonic,5,118,0.5743807752458737,0.5847457627118644
+ibm,4,XGBoost fixed candidate 0,isotonic,6,51,0.6503011864786142,0.6862745098039216
+ibm,4,XGBoost fixed candidate 0,isotonic,7,2,0.7916666666666666,1.0
+ibm,4,XGBoost fixed candidate 0,isotonic,8,52,0.8907103825136612,0.7884615384615384
+ibm,4,XGBoost fixed candidate 0,isotonic,9,9,0.9341563786008231,0.6666666666666666
+ibm,4,XGBoost fixed candidate 0,raw,0,415,0.04074623218950737,0.03132530120481928
+ibm,4,XGBoost fixed candidate 0,raw,1,168,0.14991155435286818,0.13690476190476192
+ibm,4,XGBoost fixed candidate 0,raw,2,125,0.2546719444990158,0.264
+ibm,4,XGBoost fixed candidate 0,raw,3,114,0.35214333654495705,0.3333333333333333
+ibm,4,XGBoost fixed candidate 0,raw,4,86,0.4516638025294903,0.5697674418604651
+ibm,4,XGBoost fixed candidate 0,raw,5,85,0.5553391645936405,0.5529411764705883
+ibm,4,XGBoost fixed candidate 0,raw,6,67,0.65087042993574,0.6716417910447762
+ibm,4,XGBoost fixed candidate 0,raw,7,39,0.7550266813009213,0.7692307692307693
+ibm,4,XGBoost fixed candidate 0,raw,8,28,0.8389592809336526,0.75
+ibm,4,XGBoost fixed candidate 0,sigmoid,0,436,0.03763131260281001,0.03211009174311927
+ibm,4,XGBoost fixed candidate 0,sigmoid,1,155,0.14853318577615648,0.14193548387096774
+ibm,4,XGBoost fixed candidate 0,sigmoid,2,118,0.25163193763543723,0.2796610169491525
+ibm,4,XGBoost fixed candidate 0,sigmoid,3,111,0.35070639669484566,0.34234234234234234
+ibm,4,XGBoost fixed candidate 0,sigmoid,4,76,0.44910068229201056,0.5263157894736842
+ibm,4,XGBoost fixed candidate 0,sigmoid,5,78,0.5493242158342045,0.5897435897435898
+ibm,4,XGBoost fixed candidate 0,sigmoid,6,77,0.6491039840421282,0.6623376623376623
+ibm,4,XGBoost fixed candidate 0,sigmoid,7,41,0.7565761311170601,0.6829268292682927
+ibm,4,XGBoost fixed candidate 0,sigmoid,8,33,0.8453485202388248,0.7575757575757576
+ibm,4,XGBoost fixed candidate 0,sigmoid,9,2,0.9052129619296729,1.0
+ibm,5,Logistic Regression,isotonic,0,434,0.03705808819623703,0.041474654377880185
+ibm,5,Logistic Regression,isotonic,1,105,0.14476884121804062,0.1523809523809524
+ibm,5,Logistic Regression,isotonic,2,157,0.22594600981626106,0.2356687898089172
+ibm,5,Logistic Regression,isotonic,3,119,0.3472416209042691,0.2857142857142857
+ibm,5,Logistic Regression,isotonic,4,69,0.47727017151635953,0.4782608695652174
+ibm,5,Logistic Regression,isotonic,5,81,0.5223498382056675,0.49382716049382713
+ibm,5,Logistic Regression,isotonic,6,78,0.6309346003533345,0.6666666666666666
+ibm,5,Logistic Regression,isotonic,7,66,0.704341214882151,0.8181818181818182
+ibm,5,Logistic Regression,isotonic,9,17,0.925182976416373,0.8823529411764706
+ibm,5,Logistic Regression,raw,0,432,0.03548629215885893,0.041666666666666664
+ibm,5,Logistic Regression,raw,1,146,0.14751006098591984,0.1506849315068493
+ibm,5,Logistic Regression,raw,2,117,0.24380369034712837,0.26495726495726496
+ibm,5,Logistic Regression,raw,3,87,0.3512954666538786,0.26436781609195403
+ibm,5,Logistic Regression,raw,4,94,0.4471302821441369,0.4148936170212766
+ibm,5,Logistic Regression,raw,5,99,0.5500625101426533,0.5252525252525253
+ibm,5,Logistic Regression,raw,6,94,0.6548029382919436,0.6808510638297872
+ibm,5,Logistic Regression,raw,7,54,0.7327278970524657,0.8703703703703703
+ibm,5,Logistic Regression,raw,8,3,0.8209564252392991,1.0
+ibm,5,Logistic Regression,sigmoid,0,420,0.03672680390707821,0.04047619047619048
+ibm,5,Logistic Regression,sigmoid,1,148,0.14526858125481112,0.1554054054054054
+ibm,5,Logistic Regression,sigmoid,2,126,0.24290752721633815,0.24603174603174602
+ibm,5,Logistic Regression,sigmoid,3,91,0.35155115573668344,0.25274725274725274
+ibm,5,Logistic Regression,sigmoid,4,98,0.44764222699128664,0.4387755102040816
+ibm,5,Logistic Regression,sigmoid,5,101,0.5494627675335375,0.5346534653465347
+ibm,5,Logistic Regression,sigmoid,6,100,0.6550131617804621,0.71
+ibm,5,Logistic Regression,sigmoid,7,40,0.7311443358128867,0.875
+ibm,5,Logistic Regression,sigmoid,8,2,0.8147119724123275,1.0
+ibm,5,XGBoost fixed candidate 0,isotonic,0,406,0.03521582717988134,0.04187192118226601
+ibm,5,XGBoost fixed candidate 0,isotonic,1,225,0.1574724722186581,0.1688888888888889
+ibm,5,XGBoost fixed candidate 0,isotonic,2,28,0.23249892379932818,0.21428571428571427
+ibm,5,XGBoost fixed candidate 0,isotonic,3,119,0.3190337202985102,0.2857142857142857
+ibm,5,XGBoost fixed candidate 0,isotonic,4,161,0.4588298998391702,0.42857142857142855
+ibm,5,XGBoost fixed candidate 0,isotonic,5,59,0.5705498887951529,0.559322033898305
+ibm,5,XGBoost fixed candidate 0,isotonic,6,84,0.6468713879603886,0.7619047619047619
+ibm,5,XGBoost fixed candidate 0,isotonic,7,11,0.7385063449136674,0.8181818181818182
+ibm,5,XGBoost fixed candidate 0,isotonic,8,33,0.8815109484138831,0.8787878787878788
+ibm,5,XGBoost fixed candidate 0,raw,0,414,0.042121803043815104,0.043478260869565216
+ibm,5,XGBoost fixed candidate 0,raw,1,168,0.14192876188705364,0.13690476190476192
+ibm,5,XGBoost fixed candidate 0,raw,2,99,0.24838739814180316,0.2727272727272727
+ibm,5,XGBoost fixed candidate 0,raw,3,114,0.3424218832923655,0.2807017543859649
+ibm,5,XGBoost fixed candidate 0,raw,4,120,0.4514709159731865,0.425
+ibm,5,XGBoost fixed candidate 0,raw,5,83,0.555334680769817,0.5542168674698795
+ibm,5,XGBoost fixed candidate 0,raw,6,72,0.6452816079060236,0.7638888888888888
+ibm,5,XGBoost fixed candidate 0,raw,7,41,0.7481533216267098,0.8048780487804879
+ibm,5,XGBoost fixed candidate 0,raw,8,15,0.8312143087387085,0.9333333333333333
+ibm,5,XGBoost fixed candidate 0,sigmoid,0,424,0.04024180622812487,0.04481132075471698
+ibm,5,XGBoost fixed candidate 0,sigmoid,1,162,0.1401281015266378,0.14814814814814814
+ibm,5,XGBoost fixed candidate 0,sigmoid,2,97,0.24654165471565978,0.26804123711340205
+ibm,5,XGBoost fixed candidate 0,sigmoid,3,113,0.34107253082335337,0.2743362831858407
+ibm,5,XGBoost fixed candidate 0,sigmoid,4,116,0.451402717869898,0.4224137931034483
+ibm,5,XGBoost fixed candidate 0,sigmoid,5,86,0.5573061114719878,0.5581395348837209
+ibm,5,XGBoost fixed candidate 0,sigmoid,6,65,0.6462453273430614,0.7384615384615385
+ibm,5,XGBoost fixed candidate 0,sigmoid,7,44,0.7433452743244476,0.8181818181818182
+ibm,5,XGBoost fixed candidate 0,sigmoid,8,19,0.8321180918724966,0.9473684210526315
+iranian,1,Logistic Regression,isotonic,0,299,0.008198872803625213,0.013377926421404682
+iranian,1,Logistic Regression,isotonic,1,80,0.1530900667031076,0.1625
+iranian,1,Logistic Regression,isotonic,3,42,0.30459770114942536,0.23809523809523808
+iranian,1,Logistic Regression,isotonic,4,55,0.4366537717601547,0.45454545454545453
+iranian,1,Logistic Regression,isotonic,9,34,0.9238235294117648,0.8823529411764706
+iranian,1,Logistic Regression,raw,0,321,0.018497831384225498,0.012461059190031152
+iranian,1,Logistic Regression,raw,1,31,0.14993576004868361,0.16129032258064516
+iranian,1,Logistic Regression,raw,2,53,0.24774981295131762,0.3018867924528302
+iranian,1,Logistic Regression,raw,3,43,0.3647570446053495,0.3023255813953488
+iranian,1,Logistic Regression,raw,4,19,0.44126964988216544,0.631578947368421
+iranian,1,Logistic Regression,raw,5,9,0.539886028109317,0.2222222222222222
+iranian,1,Logistic Regression,raw,6,3,0.6615489383791241,0.6666666666666666
+iranian,1,Logistic Regression,raw,7,2,0.7558474005004764,1.0
+iranian,1,Logistic Regression,raw,8,13,0.859788077250276,0.7692307692307693
+iranian,1,Logistic Regression,raw,9,16,0.9609097562918398,1.0
+iranian,1,Logistic Regression,sigmoid,0,323,0.017435157635577944,0.01238390092879257
+iranian,1,Logistic Regression,sigmoid,1,30,0.1510341504383022,0.16666666666666666
+iranian,1,Logistic Regression,sigmoid,2,52,0.2474694122415831,0.3076923076923077
+iranian,1,Logistic Regression,sigmoid,3,42,0.3677740199323546,0.30952380952380953
+iranian,1,Logistic Regression,sigmoid,4,20,0.4462465029665522,0.6
+iranian,1,Logistic Regression,sigmoid,5,9,0.5512587865676504,0.2222222222222222
+iranian,1,Logistic Regression,sigmoid,6,3,0.6763986328847255,0.6666666666666666
+iranian,1,Logistic Regression,sigmoid,7,1,0.7300330799503514,1.0
+iranian,1,Logistic Regression,sigmoid,8,12,0.8624612912377415,0.75
+iranian,1,Logistic Regression,sigmoid,9,18,0.9597761366700944,1.0
+iranian,1,XGBoost fixed candidate 0,isotonic,0,346,0.009009393579198357,0.014450867052023121
+iranian,1,XGBoost fixed candidate 0,isotonic,1,20,0.1116081871345029,0.1
+iranian,1,XGBoost fixed candidate 0,isotonic,2,29,0.24729064039408868,0.3448275862068966
+iranian,1,XGBoost fixed candidate 0,isotonic,3,22,0.3137442663221504,0.22727272727272727
+iranian,1,XGBoost fixed candidate 0,isotonic,4,40,0.4715277777777779,0.45
+iranian,1,XGBoost fixed candidate 0,isotonic,5,24,0.5555555555555556,0.625
+iranian,1,XGBoost fixed candidate 0,isotonic,7,2,0.7448124796672515,0.5
+iranian,1,XGBoost fixed candidate 0,isotonic,8,1,0.8,0.0
+iranian,1,XGBoost fixed candidate 0,isotonic,9,26,0.9615384615384616,1.0
+iranian,1,XGBoost fixed candidate 0,raw,0,315,0.028779503270717603,0.009523809523809525
+iranian,1,XGBoost fixed candidate 0,raw,1,72,0.14032663756774533,0.1388888888888889
+iranian,1,XGBoost fixed candidate 0,raw,2,30,0.24350510587294896,0.3
+iranian,1,XGBoost fixed candidate 0,raw,3,20,0.3679792985320091,0.35
+iranian,1,XGBoost fixed candidate 0,raw,4,22,0.4451059820977124,0.5454545454545454
+iranian,1,XGBoost fixed candidate 0,raw,5,25,0.5112751078605652,0.6
+iranian,1,XGBoost fixed candidate 0,raw,6,1,0.6840454339981079,1.0
+iranian,1,XGBoost fixed candidate 0,raw,7,5,0.761635935306549,1.0
+iranian,1,XGBoost fixed candidate 0,raw,8,5,0.8672389149665832,1.0
+iranian,1,XGBoost fixed candidate 0,raw,9,15,0.9360375801722208,1.0
+iranian,1,XGBoost fixed candidate 0,sigmoid,0,354,0.019327459066304155,0.01694915254237288
+iranian,1,XGBoost fixed candidate 0,sigmoid,1,37,0.14696119526995904,0.21621621621621623
+iranian,1,XGBoost fixed candidate 0,sigmoid,2,19,0.23057671733427154,0.3157894736842105
+iranian,1,XGBoost fixed candidate 0,sigmoid,3,10,0.33716233139704616,0.2
+iranian,1,XGBoost fixed candidate 0,sigmoid,4,17,0.45538220316164807,0.4117647058823529
+iranian,1,XGBoost fixed candidate 0,sigmoid,5,20,0.5540109573746219,0.55
+iranian,1,XGBoost fixed candidate 0,sigmoid,6,24,0.6438110918760356,0.625
+iranian,1,XGBoost fixed candidate 0,sigmoid,7,3,0.7237150579897316,0.3333333333333333
+iranian,1,XGBoost fixed candidate 0,sigmoid,8,2,0.8693726682561105,1.0
+iranian,1,XGBoost fixed candidate 0,sigmoid,9,24,0.97213432931567,1.0
+iranian,2,Logistic Regression,isotonic,0,306,0.010914695617268629,0.013071895424836602
+iranian,2,Logistic Regression,isotonic,1,73,0.13982660621598944,0.1506849315068493
+iranian,2,Logistic Regression,isotonic,2,24,0.2032520325203252,0.20833333333333334
+iranian,2,Logistic Regression,isotonic,3,40,0.32069072164948453,0.25
+iranian,2,Logistic Regression,isotonic,5,13,0.5285385884773126,0.38461538461538464
+iranian,2,Logistic Regression,isotonic,6,3,0.6222222222222222,0.3333333333333333
+iranian,2,Logistic Regression,isotonic,8,18,0.8538541129432881,0.9444444444444444
+iranian,2,Logistic Regression,isotonic,9,27,0.9376766114002912,0.9629629629629629
+iranian,2,Logistic Regression,raw,0,333,0.021510253950500467,0.024024024024024024
+iranian,2,Logistic Regression,raw,1,29,0.14162617265321792,0.2413793103448276
+iranian,2,Logistic Regression,raw,2,36,0.24277183393668095,0.08333333333333333
+iranian,2,Logistic Regression,raw,3,39,0.34616293900626016,0.23076923076923078
+iranian,2,Logistic Regression,raw,4,19,0.42414898412098734,0.42105263157894735
+iranian,2,Logistic Regression,raw,5,3,0.5285176372804198,0.3333333333333333
+iranian,2,Logistic Regression,raw,6,2,0.6399533597790914,1.0
+iranian,2,Logistic Regression,raw,7,2,0.7743141909324895,1.0
+iranian,2,Logistic Regression,raw,8,10,0.8560670300002698,0.9
+iranian,2,Logistic Regression,raw,9,31,0.9498305612370568,0.967741935483871
+iranian,2,Logistic Regression,sigmoid,0,334,0.020351052743285816,0.023952095808383235
+iranian,2,Logistic Regression,sigmoid,1,30,0.14300613304693516,0.23333333333333334
+iranian,2,Logistic Regression,sigmoid,2,34,0.24220327607572034,0.08823529411764706
+iranian,2,Logistic Regression,sigmoid,3,39,0.3452925931947554,0.23076923076923078
+iranian,2,Logistic Regression,sigmoid,4,19,0.4252644953163845,0.42105263157894735
+iranian,2,Logistic Regression,sigmoid,5,3,0.5323218187897877,0.3333333333333333
+iranian,2,Logistic Regression,sigmoid,6,2,0.6461725173632569,1.0
+iranian,2,Logistic Regression,sigmoid,7,2,0.7818985450442666,1.0
+iranian,2,Logistic Regression,sigmoid,8,9,0.8585455388240124,0.8888888888888888
+iranian,2,Logistic Regression,sigmoid,9,32,0.9520522965382547,0.96875
+iranian,2,XGBoost fixed candidate 0,isotonic,0,338,0.018338686329414433,0.005917159763313609
+iranian,2,XGBoost fixed candidate 0,isotonic,1,47,0.15033688728966488,0.23404255319148937
+iranian,2,XGBoost fixed candidate 0,isotonic,2,36,0.20279720279720276,0.19444444444444445
+iranian,2,XGBoost fixed candidate 0,isotonic,3,20,0.35277777777777775,0.4
+iranian,2,XGBoost fixed candidate 0,isotonic,4,1,0.44856972350743984,0.0
+iranian,2,XGBoost fixed candidate 0,isotonic,5,17,0.575,0.4117647058823529
+iranian,2,XGBoost fixed candidate 0,isotonic,7,6,0.71875,0.8333333333333334
+iranian,2,XGBoost fixed candidate 0,isotonic,8,4,0.8571428571428571,1.0
+iranian,2,XGBoost fixed candidate 0,isotonic,9,35,0.9714826054869075,1.0
+iranian,2,XGBoost fixed candidate 0,raw,0,330,0.03262315922430858,0.0030303030303030303
+iranian,2,XGBoost fixed candidate 0,raw,1,56,0.14572513542537177,0.21428571428571427
+iranian,2,XGBoost fixed candidate 0,raw,2,31,0.24359951721083734,0.22580645161290322
+iranian,2,XGBoost fixed candidate 0,raw,3,24,0.35490797460079193,0.3333333333333333
+iranian,2,XGBoost fixed candidate 0,raw,4,8,0.4440501481294632,0.25
+iranian,2,XGBoost fixed candidate 0,raw,5,16,0.5220991782844067,0.625
+iranian,2,XGBoost fixed candidate 0,raw,6,3,0.6489540139834086,1.0
+iranian,2,XGBoost fixed candidate 0,raw,7,2,0.7471200525760651,1.0
+iranian,2,XGBoost fixed candidate 0,raw,8,14,0.8787669284003121,1.0
+iranian,2,XGBoost fixed candidate 0,raw,9,20,0.9385125786066055,1.0
+iranian,2,XGBoost fixed candidate 0,sigmoid,0,350,0.02256441654238067,0.014285714285714285
+iranian,2,XGBoost fixed candidate 0,sigmoid,1,39,0.14210901311633908,0.20512820512820512
+iranian,2,XGBoost fixed candidate 0,sigmoid,2,26,0.23869790253771692,0.23076923076923078
+iranian,2,XGBoost fixed candidate 0,sigmoid,3,16,0.35061812940452913,0.1875
+iranian,2,XGBoost fixed candidate 0,sigmoid,4,13,0.43883356088558517,0.5384615384615384
+iranian,2,XGBoost fixed candidate 0,sigmoid,5,14,0.559313176881875,0.42857142857142855
+iranian,2,XGBoost fixed candidate 0,sigmoid,6,7,0.6340203820100948,0.7142857142857143
+iranian,2,XGBoost fixed candidate 0,sigmoid,7,3,0.7525473282170214,1.0
+iranian,2,XGBoost fixed candidate 0,sigmoid,8,2,0.8483811883795712,1.0
+iranian,2,XGBoost fixed candidate 0,sigmoid,9,34,0.9659047030099454,1.0
+iranian,3,Logistic Regression,isotonic,0,337,0.01424705798464181,0.026706231454005934
+iranian,3,Logistic Regression,isotonic,1,72,0.16334541062801933,0.1388888888888889
+iranian,3,Logistic Regression,isotonic,3,5,0.3902439024390244,0.4
+iranian,3,Logistic Regression,isotonic,4,8,0.42857142857142855,0.625
+iranian,3,Logistic Regression,isotonic,5,43,0.5206611570247933,0.4186046511627907
+iranian,3,Logistic Regression,isotonic,7,1,0.7424938569449522,1.0
+iranian,3,Logistic Regression,isotonic,8,19,0.8644338118022329,0.8947368421052632
+iranian,3,Logistic Regression,isotonic,9,17,0.9842835564765049,1.0
+iranian,3,Logistic Regression,raw,0,345,0.018601698497419206,0.028985507246376812
+iranian,3,Logistic Regression,raw,1,31,0.1523978620001087,0.0967741935483871
+iranian,3,Logistic Regression,raw,2,28,0.25040621788037637,0.14285714285714285
+iranian,3,Logistic Regression,raw,3,44,0.3722045252953286,0.4090909090909091
+iranian,3,Logistic Regression,raw,4,17,0.43374326296644644,0.5294117647058824
+iranian,3,Logistic Regression,raw,5,1,0.5985065892431961,1.0
+iranian,3,Logistic Regression,raw,6,2,0.6249938938308284,1.0
+iranian,3,Logistic Regression,raw,7,1,0.7860026380519974,1.0
+iranian,3,Logistic Regression,raw,8,8,0.8527105960257682,1.0
+iranian,3,Logistic Regression,raw,9,25,0.9557883260506748,0.92
+iranian,3,Logistic Regression,sigmoid,0,346,0.017661458959733155,0.031791907514450865
+iranian,3,Logistic Regression,sigmoid,1,30,0.15113324823859606,0.06666666666666667
+iranian,3,Logistic Regression,sigmoid,2,28,0.24945550275060985,0.14285714285714285
+iranian,3,Logistic Regression,sigmoid,3,40,0.37230687003977847,0.425
+iranian,3,Logistic Regression,sigmoid,4,21,0.43157352060467635,0.47619047619047616
+iranian,3,Logistic Regression,sigmoid,6,3,0.6259427526793431,1.0
+iranian,3,Logistic Regression,sigmoid,7,1,0.7969523381680678,1.0
+iranian,3,Logistic Regression,sigmoid,8,7,0.8561557498679131,1.0
+iranian,3,Logistic Regression,sigmoid,9,26,0.9581874032213425,0.9230769230769231
+iranian,3,XGBoost fixed candidate 0,isotonic,0,332,0.012674513982299018,0.02108433734939759
+iranian,3,XGBoost fixed candidate 0,isotonic,1,35,0.10273972602739727,0.08571428571428572
+iranian,3,XGBoost fixed candidate 0,isotonic,2,43,0.25676902678898555,0.20930232558139536
+iranian,3,XGBoost fixed candidate 0,isotonic,3,6,0.3365005630630631,0.3333333333333333
+iranian,3,XGBoost fixed candidate 0,isotonic,5,19,0.5561072492552135,0.3684210526315789
+iranian,3,XGBoost fixed candidate 0,isotonic,6,37,0.673607381197411,0.5945945945945946
+iranian,3,XGBoost fixed candidate 0,isotonic,7,2,0.7465948193025325,1.0
+iranian,3,XGBoost fixed candidate 0,isotonic,9,28,0.9824175824175825,0.9642857142857143
+iranian,3,XGBoost fixed candidate 0,raw,0,322,0.028011621478930555,0.018633540372670808
+iranian,3,XGBoost fixed candidate 0,raw,1,55,0.13562104539437728,0.12727272727272726
+iranian,3,XGBoost fixed candidate 0,raw,2,33,0.24518180570819162,0.18181818181818182
+iranian,3,XGBoost fixed candidate 0,raw,3,6,0.3454057276248932,0.3333333333333333
+iranian,3,XGBoost fixed candidate 0,raw,4,49,0.4722589296954019,0.46938775510204084
+iranian,3,XGBoost fixed candidate 0,raw,5,5,0.5487541079521179,0.8
+iranian,3,XGBoost fixed candidate 0,raw,7,4,0.7240400165319443,1.0
+iranian,3,XGBoost fixed candidate 0,raw,8,5,0.845653235912323,1.0
+iranian,3,XGBoost fixed candidate 0,raw,9,23,0.9365397691726685,0.9565217391304348
+iranian,3,XGBoost fixed candidate 0,sigmoid,0,353,0.02074395553346239,0.0226628895184136
+iranian,3,XGBoost fixed candidate 0,sigmoid,1,24,0.13843507909098662,0.20833333333333334
+iranian,3,XGBoost fixed candidate 0,sigmoid,2,27,0.23294623563878977,0.14814814814814814
+iranian,3,XGBoost fixed candidate 0,sigmoid,3,8,0.31863019698787987,0.25
+iranian,3,XGBoost fixed candidate 0,sigmoid,4,8,0.45201005415845225,0.625
+iranian,3,XGBoost fixed candidate 0,sigmoid,5,45,0.571878806547995,0.4444444444444444
+iranian,3,XGBoost fixed candidate 0,sigmoid,6,4,0.6499124593113995,0.75
+iranian,3,XGBoost fixed candidate 0,sigmoid,7,1,0.7172701821000167,1.0
+iranian,3,XGBoost fixed candidate 0,sigmoid,8,4,0.8482671942039476,1.0
+iranian,3,XGBoost fixed candidate 0,sigmoid,9,28,0.974998206269504,0.9642857142857143
+iranian,4,Logistic Regression,isotonic,0,283,0.006380529839089197,0.01060070671378092
+iranian,4,Logistic Regression,isotonic,1,100,0.14880936518198384,0.13
+iranian,4,Logistic Regression,isotonic,2,29,0.21815740821442164,0.3448275862068966
+iranian,4,Logistic Regression,isotonic,3,31,0.33205123457063734,0.3225806451612903
+iranian,4,Logistic Regression,isotonic,4,27,0.4473493100944082,0.5185185185185185
+iranian,4,Logistic Regression,isotonic,7,6,0.7272727272727274,0.5
+iranian,4,Logistic Regression,isotonic,8,11,0.835820895522388,0.8181818181818182
+iranian,4,Logistic Regression,isotonic,9,17,1.0,1.0
+iranian,4,Logistic Regression,raw,0,326,0.02204491744868153,0.018404907975460124
+iranian,4,Logistic Regression,raw,1,43,0.15219708728298556,0.18604651162790697
+iranian,4,Logistic Regression,raw,2,42,0.2599719546743104,0.2619047619047619
+iranian,4,Logistic Regression,raw,3,39,0.35204791084804815,0.38461538461538464
+iranian,4,Logistic Regression,raw,4,20,0.4388878187195437,0.5
+iranian,4,Logistic Regression,raw,5,6,0.5502694403578239,0.5
+iranian,4,Logistic Regression,raw,7,2,0.7178771902905239,1.0
+iranian,4,Logistic Regression,raw,8,6,0.8715400186878656,0.6666666666666666
+iranian,4,Logistic Regression,raw,9,20,0.9563098983211935,1.0
+iranian,4,Logistic Regression,sigmoid,0,329,0.020260112060201167,0.02127659574468085
+iranian,4,Logistic Regression,sigmoid,1,41,0.15163555556266473,0.17073170731707318
+iranian,4,Logistic Regression,sigmoid,2,41,0.26039736249439993,0.2682926829268293
+iranian,4,Logistic Regression,sigmoid,3,38,0.35526018036689905,0.3684210526315789
+iranian,4,Logistic Regression,sigmoid,4,19,0.44104268033832317,0.5789473684210527
+iranian,4,Logistic Regression,sigmoid,5,8,0.5510927195647533,0.375
+iranian,4,Logistic Regression,sigmoid,7,2,0.7397780196784163,1.0
+iranian,4,Logistic Regression,sigmoid,8,2,0.8562097025515738,0.5
+iranian,4,Logistic Regression,sigmoid,9,24,0.9549108010108637,0.9583333333333334
+iranian,4,XGBoost fixed candidate 0,isotonic,0,343,0.017406636880006994,0.014577259475218658
+iranian,4,XGBoost fixed candidate 0,isotonic,1,31,0.1585657644994732,0.16129032258064516
+iranian,4,XGBoost fixed candidate 0,isotonic,2,38,0.2136498341312949,0.2631578947368421
+iranian,4,XGBoost fixed candidate 0,isotonic,3,24,0.32323232323232326,0.3333333333333333
+iranian,4,XGBoost fixed candidate 0,isotonic,4,25,0.41176984278530965,0.56
+iranian,4,XGBoost fixed candidate 0,isotonic,5,2,0.5939239951359534,0.5
+iranian,4,XGBoost fixed candidate 0,isotonic,6,11,0.6153846153846153,0.6363636363636364
+iranian,4,XGBoost fixed candidate 0,isotonic,7,7,0.7651324533037333,1.0
+iranian,4,XGBoost fixed candidate 0,isotonic,9,23,0.9714673913043478,0.9565217391304348
+iranian,4,XGBoost fixed candidate 0,raw,0,303,0.02795467923991628,0.009900990099009901
+iranian,4,XGBoost fixed candidate 0,raw,1,73,0.13441457344244603,0.1095890410958904
+iranian,4,XGBoost fixed candidate 0,raw,2,54,0.23605847579461556,0.24074074074074073
+iranian,4,XGBoost fixed candidate 0,raw,3,23,0.35697875463444256,0.6521739130434783
+iranian,4,XGBoost fixed candidate 0,raw,4,21,0.46077959878104074,0.5238095238095238
+iranian,4,XGBoost fixed candidate 0,raw,5,2,0.5393646359443665,1.0
+iranian,4,XGBoost fixed candidate 0,raw,6,4,0.6295194625854492,1.0
+iranian,4,XGBoost fixed candidate 0,raw,7,3,0.7334614992141724,1.0
+iranian,4,XGBoost fixed candidate 0,raw,8,4,0.8755824714899063,0.75
+iranian,4,XGBoost fixed candidate 0,raw,9,17,0.940886956803939,1.0
+iranian,4,XGBoost fixed candidate 0,sigmoid,0,346,0.019665386263099133,0.014450867052023121
+iranian,4,XGBoost fixed candidate 0,sigmoid,1,43,0.15207009780407735,0.2558139534883721
+iranian,4,XGBoost fixed candidate 0,sigmoid,2,35,0.2376066965353091,0.14285714285714285
+iranian,4,XGBoost fixed candidate 0,sigmoid,3,16,0.34538450199245374,0.625
+iranian,4,XGBoost fixed candidate 0,sigmoid,4,13,0.4586570311780671,0.6153846153846154
+iranian,4,XGBoost fixed candidate 0,sigmoid,5,11,0.5377948602431255,0.45454545454545453
+iranian,4,XGBoost fixed candidate 0,sigmoid,6,12,0.6279375250173399,0.6666666666666666
+iranian,4,XGBoost fixed candidate 0,sigmoid,7,3,0.7723470661101381,1.0
+iranian,4,XGBoost fixed candidate 0,sigmoid,8,4,0.8718766835122956,1.0
+iranian,4,XGBoost fixed candidate 0,sigmoid,9,21,0.9856561890940585,0.9523809523809523
+iranian,5,Logistic Regression,isotonic,0,312,0.017043422909836237,0.00641025641025641
+iranian,5,Logistic Regression,isotonic,1,34,0.14317425083240842,0.14705882352941177
+iranian,5,Logistic Regression,isotonic,2,100,0.26364092801063754,0.31
+iranian,5,Logistic Regression,isotonic,4,5,0.4,0.6
+iranian,5,Logistic Regression,isotonic,5,19,0.5,0.5263157894736842
+iranian,5,Logistic Regression,isotonic,6,1,0.6666666666666666,1.0
+iranian,5,Logistic Regression,isotonic,8,13,0.8612040133779264,0.8461538461538461
+iranian,5,Logistic Regression,isotonic,9,17,1.0,0.8823529411764706
+iranian,5,Logistic Regression,raw,0,323,0.01965360939748184,0.018575851393188854
+iranian,5,Logistic Regression,raw,1,33,0.13983602614226395,0.06060606060606061
+iranian,5,Logistic Regression,raw,2,43,0.24239118367419535,0.23255813953488372
+iranian,5,Logistic Regression,raw,3,47,0.3530410730567667,0.425531914893617
+iranian,5,Logistic Regression,raw,4,17,0.4552159826497845,0.4117647058823529
+iranian,5,Logistic Regression,raw,5,7,0.5414727486701854,0.8571428571428571
+iranian,5,Logistic Regression,raw,6,2,0.6548672090939182,1.0
+iranian,5,Logistic Regression,raw,7,2,0.7288584064210104,1.0
+iranian,5,Logistic Regression,raw,8,4,0.8806815024156769,0.75
+iranian,5,Logistic Regression,raw,9,23,0.9535072886967532,0.8695652173913043
+iranian,5,Logistic Regression,sigmoid,0,322,0.02063342141896757,0.018633540372670808
+iranian,5,Logistic Regression,sigmoid,1,33,0.14003027843544386,0.06060606060606061
+iranian,5,Logistic Regression,sigmoid,2,44,0.24311183236841075,0.22727272727272727
+iranian,5,Logistic Regression,sigmoid,3,47,0.35201724539797896,0.425531914893617
+iranian,5,Logistic Regression,sigmoid,4,19,0.456288079733429,0.47368421052631576
+iranian,5,Logistic Regression,sigmoid,5,5,0.5503588039354964,0.8
+iranian,5,Logistic Regression,sigmoid,6,2,0.6465018473226156,1.0
+iranian,5,Logistic Regression,sigmoid,7,2,0.7196978276307913,1.0
+iranian,5,Logistic Regression,sigmoid,8,7,0.883396630960015,0.8571428571428571
+iranian,5,Logistic Regression,sigmoid,9,20,0.956994591794041,0.85
+iranian,5,XGBoost fixed candidate 0,isotonic,0,354,0.025415362877522295,0.014124293785310734
+iranian,5,XGBoost fixed candidate 0,isotonic,1,7,0.19047619047619047,0.0
+iranian,5,XGBoost fixed candidate 0,isotonic,2,30,0.20909090909090905,0.1
+iranian,5,XGBoost fixed candidate 0,isotonic,3,35,0.3140671461890768,0.34285714285714286
+iranian,5,XGBoost fixed candidate 0,isotonic,4,11,0.41071428571428564,0.7272727272727273
+iranian,5,XGBoost fixed candidate 0,isotonic,5,25,0.5758620689655172,0.68
+iranian,5,XGBoost fixed candidate 0,isotonic,6,10,0.693466320290406,0.6
+iranian,5,XGBoost fixed candidate 0,isotonic,7,2,0.7182539151524786,1.0
+iranian,5,XGBoost fixed candidate 0,isotonic,9,27,0.9913166755272018,0.9259259259259259
+iranian,5,XGBoost fixed candidate 0,raw,0,299,0.02778966134619653,0.0033444816053511705
+iranian,5,XGBoost fixed candidate 0,raw,1,70,0.13137644263250486,0.05714285714285714
+iranian,5,XGBoost fixed candidate 0,raw,2,44,0.2383251545781439,0.25
+iranian,5,XGBoost fixed candidate 0,raw,3,17,0.35078064308447,0.35294117647058826
+iranian,5,XGBoost fixed candidate 0,raw,4,33,0.43966842510483484,0.696969696969697
+iranian,5,XGBoost fixed candidate 0,raw,5,9,0.5319232940673828,0.6666666666666666
+iranian,5,XGBoost fixed candidate 0,raw,6,2,0.6358672678470612,1.0
+iranian,5,XGBoost fixed candidate 0,raw,8,4,0.8659655749797821,0.75
+iranian,5,XGBoost fixed candidate 0,raw,9,23,0.9440459842267244,0.9565217391304348
+iranian,5,XGBoost fixed candidate 0,sigmoid,0,334,0.02220192047046568,0.008982035928143712
+iranian,5,XGBoost fixed candidate 0,sigmoid,1,40,0.1391101626405443,0.05
+iranian,5,XGBoost fixed candidate 0,sigmoid,2,38,0.24515639502628347,0.2894736842105263
+iranian,5,XGBoost fixed candidate 0,sigmoid,3,13,0.36838890592007717,0.23076923076923078
+iranian,5,XGBoost fixed candidate 0,sigmoid,4,13,0.4711607368796258,0.7692307692307693
+iranian,5,XGBoost fixed candidate 0,sigmoid,5,25,0.5351350251512835,0.64
+iranian,5,XGBoost fixed candidate 0,sigmoid,6,9,0.6419543949001968,0.6666666666666666
+iranian,5,XGBoost fixed candidate 0,sigmoid,7,2,0.7615874572647803,1.0
+iranian,5,XGBoost fixed candidate 0,sigmoid,9,27,0.9795904269956237,0.9259259259259259
+retail,2010-09-01,Logistic Regression,isotonic,0,126,0.05548314781583504,0.047619047619047616
+retail,2010-09-01,Logistic Regression,isotonic,1,228,0.15130638858552162,0.11403508771929824
+retail,2010-09-01,Logistic Regression,isotonic,2,273,0.25166229777691806,0.16483516483516483
+retail,2010-09-01,Logistic Regression,isotonic,3,311,0.349690234202098,0.26688102893890675
+retail,2010-09-01,Logistic Regression,isotonic,4,368,0.4505144081360914,0.3179347826086957
+retail,2010-09-01,Logistic Regression,isotonic,5,283,0.5514943877770967,0.4028268551236749
+retail,2010-09-01,Logistic Regression,isotonic,6,504,0.6571029650476965,0.4722222222222222
+retail,2010-09-01,Logistic Regression,isotonic,7,628,0.7447511744041457,0.5987261146496815
+retail,2010-09-01,Logistic Regression,isotonic,8,108,0.8324230600421001,0.6759259259259259
+retail,2010-09-01,Logistic Regression,isotonic,9,2,0.9151052509080092,0.0
+retail,2010-09-01,Logistic Regression,raw,0,126,0.05548314781583504,0.047619047619047616
+retail,2010-09-01,Logistic Regression,raw,1,228,0.15130638858552162,0.11403508771929824
+retail,2010-09-01,Logistic Regression,raw,2,273,0.25166229777691806,0.16483516483516483
+retail,2010-09-01,Logistic Regression,raw,3,311,0.349690234202098,0.26688102893890675
+retail,2010-09-01,Logistic Regression,raw,4,368,0.4505144081360914,0.3179347826086957
+retail,2010-09-01,Logistic Regression,raw,5,283,0.5514943877770967,0.4028268551236749
+retail,2010-09-01,Logistic Regression,raw,6,504,0.6571029650476965,0.4722222222222222
+retail,2010-09-01,Logistic Regression,raw,7,628,0.7447511744041457,0.5987261146496815
+retail,2010-09-01,Logistic Regression,raw,8,108,0.8324230600421001,0.6759259259259259
+retail,2010-09-01,Logistic Regression,raw,9,2,0.9151052509080092,0.0
+retail,2010-09-01,Logistic Regression,sigmoid,0,126,0.05548314781583504,0.047619047619047616
+retail,2010-09-01,Logistic Regression,sigmoid,1,228,0.15130638858552162,0.11403508771929824
+retail,2010-09-01,Logistic Regression,sigmoid,2,273,0.25166229777691806,0.16483516483516483
+retail,2010-09-01,Logistic Regression,sigmoid,3,311,0.349690234202098,0.26688102893890675
+retail,2010-09-01,Logistic Regression,sigmoid,4,368,0.4505144081360914,0.3179347826086957
+retail,2010-09-01,Logistic Regression,sigmoid,5,283,0.5514943877770967,0.4028268551236749
+retail,2010-09-01,Logistic Regression,sigmoid,6,504,0.6571029650476965,0.4722222222222222
+retail,2010-09-01,Logistic Regression,sigmoid,7,628,0.7447511744041457,0.5987261146496815
+retail,2010-09-01,Logistic Regression,sigmoid,8,108,0.8324230600421001,0.6759259259259259
+retail,2010-09-01,Logistic Regression,sigmoid,9,2,0.9151052509080092,0.0
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,0,147,0.04093191487600609,0.07482993197278912
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,1,177,0.16273947561022925,0.10734463276836158
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,2,315,0.25078624775485386,0.15873015873015872
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,3,264,0.3483685271983797,0.26515151515151514
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,4,352,0.45506171958351677,0.33238636363636365
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,5,329,0.5492448631028636,0.3677811550151976
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,6,463,0.6505323717970055,0.48812095032397407
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,7,735,0.7474312972860272,0.5850340136054422
+retail,2010-09-01,XGBoost fixed candidate 0,isotonic,8,49,0.8040722377446233,0.6938775510204082
+retail,2010-09-01,XGBoost fixed candidate 0,raw,0,147,0.04093191487600609,0.07482993197278912
+retail,2010-09-01,XGBoost fixed candidate 0,raw,1,177,0.16273947561022925,0.10734463276836158
+retail,2010-09-01,XGBoost fixed candidate 0,raw,2,315,0.25078624775485386,0.15873015873015872
+retail,2010-09-01,XGBoost fixed candidate 0,raw,3,264,0.3483685271983797,0.26515151515151514
+retail,2010-09-01,XGBoost fixed candidate 0,raw,4,352,0.45506171958351677,0.33238636363636365
+retail,2010-09-01,XGBoost fixed candidate 0,raw,5,329,0.5492448631028636,0.3677811550151976
+retail,2010-09-01,XGBoost fixed candidate 0,raw,6,463,0.6505323717970055,0.48812095032397407
+retail,2010-09-01,XGBoost fixed candidate 0,raw,7,735,0.7474312972860272,0.5850340136054422
+retail,2010-09-01,XGBoost fixed candidate 0,raw,8,49,0.8040722377446233,0.6938775510204082
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,0,147,0.04093191487600609,0.07482993197278912
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,1,177,0.16273947561022925,0.10734463276836158
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,2,315,0.25078624775485386,0.15873015873015872
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,3,264,0.3483685271983797,0.26515151515151514
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,4,352,0.45506171958351677,0.33238636363636365
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,5,329,0.5492448631028636,0.3677811550151976
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,6,463,0.6505323717970055,0.48812095032397407
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,7,735,0.7474312972860272,0.5850340136054422
+retail,2010-09-01,XGBoost fixed candidate 0,sigmoid,8,49,0.8040722377446233,0.6938775510204082
+retail,2010-12-01,Logistic Regression,isotonic,0,369,0.06921892010784264,0.16260162601626016
+retail,2010-12-01,Logistic Regression,isotonic,1,676,0.14262300871098818,0.4230769230769231
+retail,2010-12-01,Logistic Regression,isotonic,2,495,0.23578354414131536,0.6404040404040404
+retail,2010-12-01,Logistic Regression,isotonic,3,765,0.3494205344025821,0.6901960784313725
+retail,2010-12-01,Logistic Regression,isotonic,4,980,0.44249879491422006,0.8173469387755102
+retail,2010-12-01,Logistic Regression,isotonic,5,140,0.5700347863173819,0.8642857142857143
+retail,2010-12-01,Logistic Regression,isotonic,6,52,0.6479098148851212,0.8461538461538461
+retail,2010-12-01,Logistic Regression,isotonic,7,2,0.7187478327405828,1.0
+retail,2010-12-01,Logistic Regression,raw,0,188,0.059771858933181383,0.06914893617021277
+retail,2010-12-01,Logistic Regression,raw,1,414,0.1533898014959877,0.28743961352657005
+retail,2010-12-01,Logistic Regression,raw,2,483,0.25123168338950574,0.4927536231884058
+retail,2010-12-01,Logistic Regression,raw,3,538,0.3486178204553339,0.6431226765799256
+retail,2010-12-01,Logistic Regression,raw,4,398,0.4489378940692608,0.6683417085427136
+retail,2010-12-01,Logistic Regression,raw,5,674,0.5586490409151454,0.7833827893175074
+retail,2010-12-01,Logistic Regression,raw,6,596,0.6404121812422335,0.8187919463087249
+retail,2010-12-01,Logistic Regression,raw,7,169,0.7337611064976319,0.8520710059171598
+retail,2010-12-01,Logistic Regression,raw,8,19,0.8267008421319086,0.8947368421052632
+retail,2010-12-01,Logistic Regression,sigmoid,0,275,0.06373610442874944,0.12363636363636364
+retail,2010-12-01,Logistic Regression,sigmoid,1,699,0.15122916033581663,0.3876967095851216
+retail,2010-12-01,Logistic Regression,sigmoid,2,745,0.2478164436676428,0.6375838926174496
+retail,2010-12-01,Logistic Regression,sigmoid,3,570,0.35387831230612,0.7017543859649122
+retail,2010-12-01,Logistic Regression,sigmoid,4,886,0.4455907155310413,0.8137697516930023
+retail,2010-12-01,Logistic Regression,sigmoid,5,260,0.53995231791671,0.8423076923076923
+retail,2010-12-01,Logistic Regression,sigmoid,6,41,0.6353910102518501,0.8780487804878049
+retail,2010-12-01,Logistic Regression,sigmoid,7,3,0.7111172652272589,1.0
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,0,558,0.08294738238716391,0.2222222222222222
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,1,380,0.13215544830909556,0.4368421052631579
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,2,669,0.2483937845837664,0.6158445440956651
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,3,749,0.3364207973076263,0.7142857142857143
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,4,602,0.44505177381589883,0.8006644518272426
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,5,465,0.5206042083909755,0.8408602150537634
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,6,31,0.623565655118367,0.9032258064516129
+retail,2010-12-01,XGBoost fixed candidate 0,isotonic,7,25,0.7438340839189539,0.84
+retail,2010-12-01,XGBoost fixed candidate 0,raw,0,251,0.061196694202513335,0.14741035856573706
+retail,2010-12-01,XGBoost fixed candidate 0,raw,1,380,0.15169726527835192,0.3
+retail,2010-12-01,XGBoost fixed candidate 0,raw,2,452,0.24851198543885114,0.4889380530973451
+retail,2010-12-01,XGBoost fixed candidate 0,raw,3,469,0.35473790345415634,0.6162046908315565
+retail,2010-12-01,XGBoost fixed candidate 0,raw,4,457,0.4485388917265627,0.6958424507658644
+retail,2010-12-01,XGBoost fixed candidate 0,raw,5,615,0.549840874109811,0.7642276422764228
+retail,2010-12-01,XGBoost fixed candidate 0,raw,6,706,0.6464362091281934,0.8229461756373938
+retail,2010-12-01,XGBoost fixed candidate 0,raw,7,149,0.7436905839299196,0.8657718120805369
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,0,352,0.06354631222421352,0.17045454545454544
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,1,641,0.15165842338276325,0.40873634945397813
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,2,676,0.25253449588116234,0.6227810650887574
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,3,694,0.35355418447377773,0.7204610951008645
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,4,819,0.4576598744147501,0.8070818070818071
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,5,241,0.528376773638435,0.8547717842323651
+retail,2010-12-01,XGBoost fixed candidate 0,sigmoid,6,56,0.6158263796788113,0.875
+retail,2011-03-01,Logistic Regression,isotonic,0,107,0.047056064976082355,0.037383177570093455
+retail,2011-03-01,Logistic Regression,isotonic,1,80,0.17271837832549966,0.0875
+retail,2011-03-01,Logistic Regression,isotonic,2,122,0.2478399148060903,0.12295081967213115
+retail,2011-03-01,Logistic Regression,isotonic,3,237,0.35955950729161545,0.22784810126582278
+retail,2011-03-01,Logistic Regression,isotonic,4,77,0.44638573248062313,0.35064935064935066
+retail,2011-03-01,Logistic Regression,isotonic,5,854,0.5247563649378065,0.5163934426229508
+retail,2011-03-01,Logistic Regression,isotonic,6,1851,0.6678544661805859,0.7385197190707725
+retail,2011-03-01,Logistic Regression,isotonic,7,21,0.7284580498866214,0.8571428571428571
+retail,2011-03-01,Logistic Regression,raw,0,126,0.060638493562651136,0.031746031746031744
+retail,2011-03-01,Logistic Regression,raw,1,183,0.15550522727659863,0.12021857923497267
+retail,2011-03-01,Logistic Regression,raw,2,276,0.25203293178374897,0.2391304347826087
+retail,2011-03-01,Logistic Regression,raw,3,325,0.352732612702626,0.44
+retail,2011-03-01,Logistic Regression,raw,4,420,0.4520028778155413,0.5190476190476191
+retail,2011-03-01,Logistic Regression,raw,5,441,0.5499071867309282,0.6303854875283447
+retail,2011-03-01,Logistic Regression,raw,6,904,0.6630409040284347,0.7300884955752213
+retail,2011-03-01,Logistic Regression,raw,7,650,0.7322170104776126,0.8015384615384615
+retail,2011-03-01,Logistic Regression,raw,8,24,0.8202800727520639,0.875
+retail,2011-03-01,Logistic Regression,sigmoid,0,24,0.059096764379795795,0.041666666666666664
+retail,2011-03-01,Logistic Regression,sigmoid,1,96,0.1621054091525603,0.03125
+retail,2011-03-01,Logistic Regression,sigmoid,2,150,0.2573665910892751,0.09333333333333334
+retail,2011-03-01,Logistic Regression,sigmoid,3,299,0.3542427628385348,0.22408026755852842
+retail,2011-03-01,Logistic Regression,sigmoid,4,434,0.45429492548605893,0.4377880184331797
+retail,2011-03-01,Logistic Regression,sigmoid,5,613,0.5511690043980421,0.5905383360522023
+retail,2011-03-01,Logistic Regression,sigmoid,6,1162,0.6635462072139688,0.7177280550774526
+retail,2011-03-01,Logistic Regression,sigmoid,7,567,0.7245705583607953,0.8077601410934744
+retail,2011-03-01,Logistic Regression,sigmoid,8,4,0.8117919527983409,1.0
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,0,29,0.0409206928400162,0.0
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,1,37,0.10192516602214184,0.02702702702702703
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,2,225,0.24611257893173497,0.09333333333333334
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,3,157,0.34895895061194354,0.20382165605095542
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,4,301,0.44441787039421776,0.3089700996677741
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,5,845,0.5440674844685057,0.5479289940828402
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,6,1675,0.6611843485150687,0.7474626865671642
+retail,2011-03-01,XGBoost fixed candidate 0,isotonic,7,80,0.7657278312005869,0.8875
+retail,2011-03-01,XGBoost fixed candidate 0,raw,0,103,0.06201025288443542,0.02912621359223301
+retail,2011-03-01,XGBoost fixed candidate 0,raw,1,146,0.15763925735468734,0.0821917808219178
+retail,2011-03-01,XGBoost fixed candidate 0,raw,2,293,0.2516499662155177,0.21160409556313994
+retail,2011-03-01,XGBoost fixed candidate 0,raw,3,344,0.3506368847433911,0.40406976744186046
+retail,2011-03-01,XGBoost fixed candidate 0,raw,4,516,0.45041472539883254,0.5193798449612403
+retail,2011-03-01,XGBoost fixed candidate 0,raw,5,475,0.5511642014352899,0.6947368421052632
+retail,2011-03-01,XGBoost fixed candidate 0,raw,6,752,0.6540074231142693,0.7194148936170213
+retail,2011-03-01,XGBoost fixed candidate 0,raw,7,720,0.7255370217065017,0.8027777777777778
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,0,16,0.09106837552283917,0.0
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,1,74,0.15986977431666735,0.02702702702702703
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,2,111,0.2549454908334599,0.09009009009009009
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,3,314,0.3555825823663801,0.1942675159235669
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,4,498,0.45565224088607337,0.41164658634538154
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,5,713,0.5507909359123481,0.5904628330995793
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,6,1126,0.6596836261096656,0.7406749555950266
+retail,2011-03-01,XGBoost fixed candidate 0,sigmoid,7,497,0.7154878421627433,0.8048289738430584
+retail,2011-06-01,Logistic Regression,isotonic,0,82,0.041841736339698295,0.0
+retail,2011-06-01,Logistic Regression,isotonic,1,66,0.15881669751907002,0.045454545454545456
+retail,2011-06-01,Logistic Regression,isotonic,2,107,0.2308822187799439,0.09345794392523364
+retail,2011-06-01,Logistic Regression,isotonic,3,134,0.32663706364835676,0.12686567164179105
+retail,2011-06-01,Logistic Regression,isotonic,4,465,0.48174394214131416,0.34623655913978496
+retail,2011-06-01,Logistic Regression,isotonic,5,123,0.546620767108572,0.36585365853658536
+retail,2011-06-01,Logistic Regression,isotonic,6,860,0.6731097999872919,0.577906976744186
+retail,2011-06-01,Logistic Regression,isotonic,7,822,0.7195315777736092,0.7238442822384428
+retail,2011-06-01,Logistic Regression,raw,0,95,0.05853848061307035,0.0
+retail,2011-06-01,Logistic Regression,raw,1,138,0.15422679597714212,0.07971014492753623
+retail,2011-06-01,Logistic Regression,raw,2,184,0.24843791616375793,0.14673913043478262
+retail,2011-06-01,Logistic Regression,raw,3,255,0.35385601928452054,0.3137254901960784
+retail,2011-06-01,Logistic Regression,raw,4,326,0.45309689931116603,0.3895705521472393
+retail,2011-06-01,Logistic Regression,raw,5,304,0.5436951859644048,0.4934210526315789
+retail,2011-06-01,Logistic Regression,raw,6,584,0.6623267701101118,0.6335616438356164
+retail,2011-06-01,Logistic Regression,raw,7,723,0.741046016866904,0.7316735822959889
+retail,2011-06-01,Logistic Regression,raw,8,50,0.8213614129411121,0.68
+retail,2011-06-01,Logistic Regression,sigmoid,0,35,0.05774677754765225,0.0
+retail,2011-06-01,Logistic Regression,sigmoid,1,82,0.14930818782477154,0.024390243902439025
+retail,2011-06-01,Logistic Regression,sigmoid,2,138,0.252396885046239,0.07971014492753623
+retail,2011-06-01,Logistic Regression,sigmoid,3,178,0.3472572318403325,0.1797752808988764
+retail,2011-06-01,Logistic Regression,sigmoid,4,312,0.45159847034447775,0.3108974358974359
+retail,2011-06-01,Logistic Regression,sigmoid,5,425,0.5531416160996568,0.4376470588235294
+retail,2011-06-01,Logistic Regression,sigmoid,6,426,0.6609270159529573,0.5657276995305164
+retail,2011-06-01,Logistic Regression,sigmoid,7,989,0.7433037615123848,0.7158746208291203
+retail,2011-06-01,Logistic Regression,sigmoid,8,74,0.816740643860086,0.6891891891891891
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,0,70,0.05136223223780827,0.0
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,1,100,0.1830501542976686,0.05
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,2,171,0.2505575983318762,0.10526315789473684
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,3,101,0.3726162120929075,0.2079207920792079
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,4,103,0.4312037718477908,0.2912621359223301
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,5,455,0.531386191469333,0.4
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,6,460,0.6512532540653976,0.49782608695652175
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,7,1117,0.710390244396943,0.702775290957923
+retail,2011-06-01,XGBoost fixed candidate 0,isotonic,8,82,0.8162162162162162,0.7073170731707317
+retail,2011-06-01,XGBoost fixed candidate 0,raw,0,107,0.05667418119645564,0.009345794392523364
+retail,2011-06-01,XGBoost fixed candidate 0,raw,1,147,0.15585756661737857,0.08843537414965986
+retail,2011-06-01,XGBoost fixed candidate 0,raw,2,154,0.24953016696812272,0.13636363636363635
+retail,2011-06-01,XGBoost fixed candidate 0,raw,3,248,0.35392000550223934,0.2903225806451613
+retail,2011-06-01,XGBoost fixed candidate 0,raw,4,320,0.4522691868245602,0.425
+retail,2011-06-01,XGBoost fixed candidate 0,raw,5,364,0.5509101746829002,0.47802197802197804
+retail,2011-06-01,XGBoost fixed candidate 0,raw,6,534,0.6619398774725668,0.6460674157303371
+retail,2011-06-01,XGBoost fixed candidate 0,raw,7,731,0.7339115285514644,0.7236662106703147
+retail,2011-06-01,XGBoost fixed candidate 0,raw,8,54,0.8141990237765842,0.6851851851851852
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,0,49,0.0740037508789807,0.0
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,1,85,0.15145232068416925,0.03529411764705882
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,2,141,0.25567032517667104,0.07801418439716312
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,3,160,0.35404787261972104,0.175
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,4,294,0.45499042140414875,0.32653061224489793
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,5,396,0.5520941157096925,0.41414141414141414
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,6,480,0.6522055054793832,0.5645833333333333
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,7,980,0.740951104381054,0.7173469387755103
+retail,2011-06-01,XGBoost fixed candidate 0,sigmoid,8,74,0.8131455224809832,0.7027027027027027

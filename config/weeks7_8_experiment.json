@@ -1,0 +1,11 @@
+{
+  "seed": 5920,
+  "inner_folds": 3,
+  "base_models": ["Logistic Regression", "XGBoost fixed candidate 0"],
+  "calibration_methods": ["raw", "sigmoid", "isotonic"],
+  "xgboost_candidate": 0,
+  "sigmoid_C": 1000000.0,
+  "retail_no_history_policy": "Identity fallback; no calibration labels available",
+  "selection_policy": "Report all prespecified methods; do not select on outer validation",
+  "final_test_policy": "No final holdout evaluation or final retail label construction"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "metric_rows_reconciled": 84,
+  "frozen_validation_coverage": true,
+  "calibration_outer_disjoint": true,
+  "temporal_label_maturity": true,
+  "final_test_evaluated": false
+}

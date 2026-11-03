@@ -1,0 +1,73 @@
+dataset,fold,base_model,inner_fold,train_n,calibration_n,separation_passed,train_latest_label_end,calibration_cutoff
+ibm,1,Logistic Regression,1,3004,1503,True,,
+ibm,1,Logistic Regression,2,3005,1502,True,,
+ibm,1,Logistic Regression,3,3005,1502,True,,
+ibm,1,XGBoost fixed candidate 0,1,3004,1503,True,,
+ibm,1,XGBoost fixed candidate 0,2,3005,1502,True,,
+ibm,1,XGBoost fixed candidate 0,3,3005,1502,True,,
+ibm,2,Logistic Regression,1,3004,1503,True,,
+ibm,2,Logistic Regression,2,3005,1502,True,,
+ibm,2,Logistic Regression,3,3005,1502,True,,
+ibm,2,XGBoost fixed candidate 0,1,3004,1503,True,,
+ibm,2,XGBoost fixed candidate 0,2,3005,1502,True,,
+ibm,2,XGBoost fixed candidate 0,3,3005,1502,True,,
+ibm,3,Logistic Regression,1,3004,1503,True,,
+ibm,3,Logistic Regression,2,3005,1502,True,,
+ibm,3,Logistic Regression,3,3005,1502,True,,
+ibm,3,XGBoost fixed candidate 0,1,3004,1503,True,,
+ibm,3,XGBoost fixed candidate 0,2,3005,1502,True,,
+ibm,3,XGBoost fixed candidate 0,3,3005,1502,True,,
+ibm,4,Logistic Regression,1,3004,1503,True,,
+ibm,4,Logistic Regression,2,3005,1502,True,,
+ibm,4,Logistic Regression,3,3005,1502,True,,
+ibm,4,XGBoost fixed candidate 0,1,3004,1503,True,,
+ibm,4,XGBoost fixed candidate 0,2,3005,1502,True,,
+ibm,4,XGBoost fixed candidate 0,3,3005,1502,True,,
+ibm,5,Logistic Regression,1,3005,1503,True,,
+ibm,5,Logistic Regression,2,3005,1503,True,,
+ibm,5,Logistic Regression,3,3006,1502,True,,
+ibm,5,XGBoost fixed candidate 0,1,3005,1503,True,,
+ibm,5,XGBoost fixed candidate 0,2,3005,1503,True,,
+ibm,5,XGBoost fixed candidate 0,3,3006,1502,True,,
+iranian,1,Logistic Regression,1,1325,686,True,,
+iranian,1,Logistic Regression,2,1342,669,True,,
+iranian,1,Logistic Regression,3,1355,656,True,,
+iranian,1,XGBoost fixed candidate 0,1,1325,686,True,,
+iranian,1,XGBoost fixed candidate 0,2,1342,669,True,,
+iranian,1,XGBoost fixed candidate 0,3,1355,656,True,,
+iranian,2,Logistic Regression,1,1356,661,True,,
+iranian,2,Logistic Regression,2,1346,671,True,,
+iranian,2,Logistic Regression,3,1332,685,True,,
+iranian,2,XGBoost fixed candidate 0,1,1356,661,True,,
+iranian,2,XGBoost fixed candidate 0,2,1346,671,True,,
+iranian,2,XGBoost fixed candidate 0,3,1332,685,True,,
+iranian,3,Logistic Regression,1,1313,706,True,,
+iranian,3,Logistic Regression,2,1369,650,True,,
+iranian,3,Logistic Regression,3,1356,663,True,,
+iranian,3,XGBoost fixed candidate 0,1,1313,706,True,,
+iranian,3,XGBoost fixed candidate 0,2,1369,650,True,,
+iranian,3,XGBoost fixed candidate 0,3,1356,663,True,,
+iranian,4,Logistic Regression,1,1359,658,True,,
+iranian,4,Logistic Regression,2,1323,694,True,,
+iranian,4,Logistic Regression,3,1352,665,True,,
+iranian,4,XGBoost fixed candidate 0,1,1359,658,True,,
+iranian,4,XGBoost fixed candidate 0,2,1323,694,True,,
+iranian,4,XGBoost fixed candidate 0,3,1352,665,True,,
+iranian,5,Logistic Regression,1,1353,667,True,,
+iranian,5,Logistic Regression,2,1360,660,True,,
+iranian,5,Logistic Regression,3,1327,693,True,,
+iranian,5,XGBoost fixed candidate 0,1,1353,667,True,,
+iranian,5,XGBoost fixed candidate 0,2,1360,660,True,,
+iranian,5,XGBoost fixed candidate 0,3,1327,693,True,,
+retail,2010-12-01,Logistic Regression,1,2669,2831,True,2010-08-30T00:00:00,2010-09-01T00:00:00
+retail,2010-12-01,XGBoost fixed candidate 0,1,2669,2831,True,2010-08-30T00:00:00,2010-09-01T00:00:00
+retail,2011-03-01,Logistic Regression,1,2669,2831,True,2010-08-30T00:00:00,2010-09-01T00:00:00
+retail,2011-03-01,Logistic Regression,2,5500,3479,True,2010-11-30T00:00:00,2010-12-01T00:00:00
+retail,2011-03-01,XGBoost fixed candidate 0,1,2669,2831,True,2010-08-30T00:00:00,2010-09-01T00:00:00
+retail,2011-03-01,XGBoost fixed candidate 0,2,5500,3479,True,2010-11-30T00:00:00,2010-12-01T00:00:00
+retail,2011-06-01,Logistic Regression,1,2669,2831,True,2010-08-30T00:00:00,2010-09-01T00:00:00
+retail,2011-06-01,Logistic Regression,2,5500,3479,True,2010-11-30T00:00:00,2010-12-01T00:00:00
+retail,2011-06-01,Logistic Regression,3,8979,3349,True,2011-03-01T00:00:00,2011-03-01T00:00:00
+retail,2011-06-01,XGBoost fixed candidate 0,1,2669,2831,True,2010-08-30T00:00:00,2010-09-01T00:00:00
+retail,2011-06-01,XGBoost fixed candidate 0,2,5500,3479,True,2010-11-30T00:00:00,2010-12-01T00:00:00
+retail,2011-06-01,XGBoost fixed candidate 0,3,8979,3349,True,2011-03-01T00:00:00,2011-03-01T00:00:00

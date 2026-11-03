@@ -1,6 +1,17 @@
-# Customer Retention — Weeks 1–6
+# Customer Retention — Weeks 1–8
 
-## Latest milestone: Weeks 5–6
+## Latest analysis: Weeks 7–8
+
+Training-only sigmoid/isotonic calibration and retail time drift analysis are complete. Read [progress and findings](reports/Weeks_7_8_Progress.md) and [methodology](reports/weeks7_8_methodology.md). Historical calibration worsens overall retail probability accuracy under this protocol; uncalibrated LR remains the retail reference. These experiments use fixed base models, including XGBoost candidate 0, rather than claiming calibration of the earlier nested-selected model. Final tests remain reserved.
+
+```bash
+python run_weeks7_8.py
+python -m unittest discover -s tests
+```
+
+The runner reuses the original development validation splits, writes predictions, calibration OOF evidence, drift tables, figures and environment/input hashes to `outputs/weeks7_8/`, and independently reconciles 84 metric rows. The earliest retail origin uses an explicit no-history identity fallback; a separate summary excludes that origin for every method.
+
+## Previous milestone: Weeks 5–6
 
 Open **[Second Progress Report](reports/Second_Progress_Report.html)** for the TA check-in, or read the concise [progress notes](reports/Weeks_5_6_Progress.md).
 

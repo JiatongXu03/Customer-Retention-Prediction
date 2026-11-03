@@ -1,0 +1,44 @@
+{
+  "config": {
+    "seed": 5920,
+    "inner_folds": 3,
+    "base_models": [
+      "Logistic Regression",
+      "XGBoost fixed candidate 0"
+    ],
+    "calibration_methods": [
+      "raw",
+      "sigmoid",
+      "isotonic"
+    ],
+    "xgboost_candidate": 0,
+    "sigmoid_C": 1000000.0,
+    "retail_no_history_policy": "Identity fallback; no calibration labels available",
+    "selection_policy": "Report all prespecified methods; do not select on outer validation",
+    "final_test_policy": "No final holdout evaluation or final retail label construction"
+  },
+  "python": "3.12.2",
+  "sklearn": "1.4.1.post1",
+  "numpy": "1.26.4",
+  "pandas": "2.2.1",
+  "xgboost": "3.0.5",
+  "final_test_evaluated": false,
+  "final_retail_labels_constructed": false,
+  "input_sha256": {
+    "config/study_design.json": "c14a00c101ec6429737cabae6976902c51ea0553fdb045fdb12ba0ae01ecf5f2",
+    "config/weeks5_6_experiment.json": "da63a20f4c954fa2c5569b65e2c5f737580b6f9cefef06616c9e5339bcc8a565",
+    "config/weeks7_8_experiment.json": "08ab041e43b3d6a6e6e5aaa652ffc27a39c3a3e47c4f81c6717deabae085efb6",
+    "src/calibration_drift.py": "3e3263e59358a965f21a647e8dbe486131844beee1d87541528f3a17f5d6221d",
+    "src/advanced_models.py": "318b1af569090361151da9da04c3113cc7858a9f59192170a11a04069a6eaa5b",
+    "src/baseline_utils.py": "fdf6bf8f462e1f0217ad64904058454d479423680db941bf939dbd2440b1bc00",
+    "src/audit_utils.py": "f32b96d9601fdfa9b15d6ad77b8c69a60f8f9e6c83f8502fdebf221e1fe47d6c",
+    "run_weeks7_8.py": "13974999d84cfe2533212110cfcb73c09a8a21a80530383b65f8f30d043b9f08",
+    "validate_weeks7_8.py": "2248156106772bf6db0e71304b517eba336746f395c02f23e80f89f27b44bae7",
+    "data/processed/retail_development_snapshots.csv.gz": "328c9a38c0d1a1b14b3077000ae84c1ac90d87b0a34c5e3014462f804809051c",
+    "data/raw/ibm_telco.csv": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+    "data/raw/iranian_churn.csv": "90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1",
+    "outputs/tables/telecom_development_fold_assignments.csv": "d3a109d397462ff0bf0c0f63ca9541ec2aeed3fed7bbd01bf35658bb36b7e0ca",
+    "outputs/tables/ibm_split_assignments.csv": "62ff952ec9d5d3ba9e25b043f9a402e55d3cbc6dc46c793e0f5f7799eaa11737",
+    "outputs/tables/iranian_split_assignments.csv": "95b44460522b00acf75807aa61541835061c0d818b174266c1a7a084e8497116"
+  }
+}
