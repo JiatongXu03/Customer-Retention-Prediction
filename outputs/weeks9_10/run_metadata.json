@@ -1,0 +1,23 @@
+{
+  "config": {
+    "budgets": [
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "methods": [
+      "raw",
+      "sigmoid",
+      "isotonic"
+    ],
+    "tie_policy": "Probability descending, row_id ascending using stable sort",
+    "evaluation": "Development validation predictions only, report all methods and budgets",
+    "final_tests": "Reserved and unused",
+    "economic_policy": "Scenario assumptions only, no measured intervention effects"
+  },
+  "source_sha256": "685c7d6fc4c0d5efc82714cc6b921ff84e110622470ff04b737b3cf17070d22d",
+  "rows": 420,
+  "prediction_rows": 122838
+}

@@ -1,6 +1,19 @@
-# Customer Retention — Weeks 1–8
+# Customer Retention — Weeks 1–10
 
-## Latest analysis: Weeks 7–8
+## Latest milestone: Weeks 9–10
+
+Added outreach-budget evaluation with 420 independently reconciled metric rows and an interactive aggregate-only demo. Read [progress and methodology](reports/Weeks_9_10_Progress.md) and the [four-slide check-in](reports/Weeks_9_10_Check_In.pptx).
+
+```bash
+python run_weeks9_10.py
+python validate_weeks9_10.py
+python -m unittest discover -s tests
+python3 -m http.server 8765 --directory sites/retention-lab/dist
+```
+
+Open `sites/retention-lab/dist/index.html` directly in a browser, or visit http://localhost:8765 to compare models, explore outreach capacity and inspect cost assumptions. All results use existing development validation predictions. Final tests remain reserved.
+
+## Previous analysis: Weeks 7–8
 
 Training-only sigmoid/isotonic calibration and retail time drift analysis are complete. Read [progress and findings](reports/Weeks_7_8_Progress.md) and [methodology](reports/weeks7_8_methodology.md). Historical calibration worsens overall retail probability accuracy under this protocol; uncalibrated LR remains the retail reference. These experiments use fixed base models, including XGBoost candidate 0, rather than claiming calibration of the earlier nested-selected model. Final tests remain reserved.
 

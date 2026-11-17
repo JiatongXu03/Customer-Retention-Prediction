@@ -5,3 +5,7 @@ __pycache__/
 .mplconfig/
 .checkin_build/
 .chart-data-*/
+
+.weeks9_build/
+sites/retention-lab/.git/
+.playwright-mcp/
